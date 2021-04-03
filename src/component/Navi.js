@@ -5,27 +5,34 @@ import {
     Route,
     Link
 } from 'react-router-dom';
-import About from './About';
+import Profile from './Profile';
+import Works from './Works';
 
 export default class Navi extends React.Component {
     render() {
         return (
             <Router>
                 <div>
+                    <h1>
+                        <Link to="/">Azu's Portfolio</Link>
+                    </h1>
                     <nav>
                         <ul>
                             <li>
-                                <Link to="/">Home</Link>
+                                <Link to="/Profile">Profile</Link>
                             </li>
                             <li>
-                                <Link to="/About">About</Link>
+                                <Link to="/Works">Works</Link>
                             </li>
                         </ul>
                     </nav>
     
                     <Switch>
-                        <Route path="/About">
-                            <About />
+                        <Route path="/Profile">
+                            <Profile />
+                        </Route>
+                        <Route path="/Works">
+                            <Works />
                         </Route>
                         <Route path="/">
                             
