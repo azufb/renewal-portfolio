@@ -3,7 +3,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    NavLink
 } from 'react-router-dom';
 import Top from './Top';
 import Profile from './Profile';
@@ -19,9 +20,9 @@ export default class Navi extends React.Component {
                         <Link to="/Top">Azu's Portfolio</Link>
                     </h1>
                     <div className='navi'>
-                        <Link to="/Profile">Profile</Link><span className='verticalB'>|</span>
-                        <Link to="/Skills">Skills</Link><span className='verticalB'>|</span>
-                        <Link to="/Works">Works</Link>
+                        <NavLink to="/Profile">Profile</NavLink><span className='verticalB'>|</span>
+                        <NavLink to="/Skills">Skills</NavLink><span className='verticalB'>|</span>
+                        <NavLink to="/Works">Works</NavLink>
                     </div>
     
                     <Switch>
