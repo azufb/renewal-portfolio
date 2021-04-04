@@ -17,19 +17,11 @@ export default class Navi extends React.Component {
                     <h1>
                         <Link to="/">Azu's Portfolio</Link>
                     </h1>
-                    <nav>
-                        <ul>
-                            <li>
-                                <Link to="/Profile">Profile</Link>
-                            </li>
-                            <li>
-                                <Link to="/Skills">Skills</Link>
-                            </li>
-                            <li>
-                                <Link to="/Works">Works</Link>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div className='navi'>
+                        <Link to="/Profile">Profile</Link><span className='verticalB'>|</span>
+                        <Link to="/Skills">Skills</Link><span className='verticalB'>|</span>
+                        <Link to="/Works">Works</Link>
+                    </div>
     
                     <Switch>
                         <Route path="/Profile">
