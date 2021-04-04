@@ -1,3 +1,8 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .App {
   text-align: center;
 }
@@ -86,5 +91,25 @@
   .verticalB {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .newsTitle {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 0px;
+  }
+
+  .newsBox {
+    border: 1px solid black;
+  }
+
+  .newsBox table {
+    padding: 15px;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: auto;
   }
 }

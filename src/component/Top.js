@@ -1,0 +1,29 @@
+import React from 'react';
+
+export default class Top extends React.Component {
+    render() {
+        return (
+            <div>
+                <h2>Welcome!</h2>
+                <h3 className='newsTitle'>NEWS!</h3>
+                <div className='newsBox'>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>2021.04.30</th>
+                                <td>ポートフォリオサイト、リニューアルオープン！</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>Greeting</h3>
+                <p>
+                    はじめまして、Azuです！<br />
+                    フロントエンドエンジニアを目指して、プログラミングの勉強をしています。
+                    当サイトでは、個人開発で開発したアプリケーションを掲載しております。
+                </p>
+            </div>
+        );
+    }
+}

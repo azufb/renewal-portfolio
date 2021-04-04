@@ -5,6 +5,7 @@ import {
     Route,
     Link
 } from 'react-router-dom';
+import Top from './Top';
 import Profile from './Profile';
 import Works from './Works';
 import Skills from './Skills';
@@ -15,7 +16,7 @@ export default class Navi extends React.Component {
             <Router>
                 <div>
                     <h1>
-                        <Link to="/">Azu's Portfolio</Link>
+                        <Link to="/Top">Azu's Portfolio</Link>
                     </h1>
                     <div className='navi'>
                         <Link to="/Profile">Profile</Link><span className='verticalB'>|</span>
@@ -33,7 +34,9 @@ export default class Navi extends React.Component {
                         <Route path="/Works">
                             <Works />
                         </Route>
-                        <Route path="/"></Route>
+                        <Route path="/Top">
+                            <Top />
+                        </Route>
                     </Switch>
                 </div>
             </Router>
