@@ -50,6 +50,10 @@ h1 {
   justify-content: center;
 }
 
+.navi a.active {
+  text-decoration: underline;
+}
+
 .verticalB {
   padding-left: 10px;
   padding-right: 10px;
@@ -75,8 +79,12 @@ footer {
   margin-top: auto;
 }
 
-.navi a.active {
-  text-decoration: underline;
+.formLink {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 /*.timeline {
