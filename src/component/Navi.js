@@ -17,7 +17,7 @@ export default class Navi extends React.Component {
             <Router>
                 <div>
                     <h1>
-                        <Link to="/Top">Azu's Portfolio</Link>
+                        <Link to="/">Azu's Portfolio</Link>
                     </h1>
                     <div className='navi'>
                         <NavLink to="/Profile">Profile</NavLink><span className='verticalB'>|</span>
@@ -35,7 +35,7 @@ export default class Navi extends React.Component {
                         <Route path="/Works">
                             <Works />
                         </Route>
-                        <Route path="/Top">
+                        <Route path="/">
                             <Top />
                         </Route>
                     </Switch>
