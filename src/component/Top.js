@@ -4,7 +4,6 @@ export default class Top extends React.Component {
     render() {
         return (
             <div>
-                <h2>Welcome!</h2>
                 <h3 className='newsTitle'>NEWS!</h3>
                 <div className='newsBox'>
                     <table>
@@ -20,8 +19,9 @@ export default class Top extends React.Component {
                 <h3>Greeting</h3>
                 <p>
                     はじめまして、Azuです！<br />
-                    フロントエンドエンジニアを目指して、プログラミングの勉強をしています。
-                    当サイトでは、個人開発で開発したアプリケーションを掲載しております。
+                    フロントエンドエンジニアを目指して、プログラミングの勉強をしています。<br />
+                    当サイトでは、独学の過程で個人開発したアプリケーションを掲載しております。<br />
+                    ぜひ、ご覧下さい！
                 </p>
             </div>
         );
