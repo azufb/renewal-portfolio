@@ -8,8 +8,9 @@ import {
 } from 'react-router-dom';
 import Top from './Top';
 import Profile from './Profile';
-import Works from './Works';
 import Skills from './Skills';
+import Works from './Works';
+import Contact from './Contact';
 
 export default class Navi extends React.Component {
     render() {
@@ -22,7 +23,8 @@ export default class Navi extends React.Component {
                     <div className='navi'>
                         <NavLink to="/Profile">Profile</NavLink><span className='verticalB'>|</span>
                         <NavLink to="/Skills">Skills</NavLink><span className='verticalB'>|</span>
-                        <NavLink to="/Works">Works</NavLink>
+                        <NavLink to="/Works">Works</NavLink><span className='verticalB'>|</span>
+                        <NavLink to='/Contact'>Contact</NavLink>
                     </div>
     
                     <Switch>
@@ -34,6 +36,9 @@ export default class Navi extends React.Component {
                         </Route>
                         <Route path="/Works">
                             <Works />
+                        </Route>
+                        <Route path='/Contact'>
+                            <Contact />
                         </Route>
                         <Route path="/">
                             <Top />
