@@ -86,6 +86,16 @@ export default class About extends React.Component {
                         </div>
                     </li>
                     <li>
+                        <p className='timeline-date'>2019年4月</p>
+                        <div className='timeline-content'>
+                            <h3>Excel VBAとの出会い...</h3>
+                            <p>
+                                Excel VBAの授業を履修し、自分が書いたコードの通りにExcelが動いたことに感激。<br />
+                                この授業がきっかけとなり、エンジニアの仕事に興味を持つ。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
                         <p className='timeline-date'>2020年3月</p>
                         <div className='timeline-content'>
                             <h3>大学卒業</h3>
@@ -96,7 +106,10 @@ export default class About extends React.Component {
                         <p className='timeline-date'>2020年10月</p>
                         <div className='timeline-content'>
                             <h3>アルバイトを開始。</h3>
-                            <p>エンジニアを目指して、アルバイトを開始した。</p>
+                            <p>
+                                エンジニアを目指して、アルバイトを開始。<br />
+                                主に、CMSを使って、サイト保守を行っている。
+                            </p>
                         </div>
                     </li>
                 </ul>
