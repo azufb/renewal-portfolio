@@ -11,13 +11,15 @@ export default class About extends React.Component {
                 <h3>SNSなど：</h3>
                 <p>
                     <a href='https://twitter.com/azunasuuu' target='_blank' rel='noopener noreferrer'>
-                        <i class='fab fa-twitter-square fa-3x'></i>
+                        <i className='fab fa-twitter-square fa-3x'></i>
                     </a>
                     <a href='https://github.com/azufb' target='_blank' rel='noopener noreferrer'>
-                        <i class='fab fa-github fa-3x'></i>
+                        <i className='fab fa-github fa-3x'></i>
                     </a>
                     <br />
-                    <a href='https://qiita.com/azunas' target='_blank' rel='noopener noreferrer'>Qiitaはこちら</a>
+                    <a href='https://qiita.com/azunas' target='_blank' rel='noopener noreferrer'>
+                        Qiitaはこちら！<i className="fas fa-external-link-alt"></i>
+                    </a>
                 </p>
 
                 <h3>趣味：</h3>
