@@ -92,18 +92,27 @@ img {
 }
 
 /* My Worksページ */
+.cards {
+  display: flex;
+}
+
 .card {
-  border: 1px solid #000;
-  float: left;
+  border: 1px solid #ccc;
   border-radius: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.cardContents {
+  padding: 10px;
 }
 
 .card img {
-  border-radius: 10px 10px 0px 0px;
+  width: 230px;
+  height: auto;
 }
 
 .card p {
-  margin-top: 0px;
   text-align: center;
 }
 
