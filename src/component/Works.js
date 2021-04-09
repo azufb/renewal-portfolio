@@ -1,10 +1,4 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    NavLink
-} from 'react-router-dom';
 import ToDoKanri from './works/worksPhotos/ToDoKanri.png';
 import ToDoKanri2 from './works/worksPhotos/ToDoKanri_02.png';
 import tagMemo from './works/worksPhotos/tagMemo.png';
@@ -12,6 +6,8 @@ import iceBreakShuffle from './works/worksPhotos/iceBreakShuffle.png';
 import homerun from './works/worksPhotos/homerun.png';
 import negapuchi from './works/worksPhotos/negaPuchi.png';
 import jhpm from './works/worksPhotos/JobHuntingProgressManage.png';
+import { NavLink } from 'react-router-dom';
+
 
 export default class Works extends React.Component {
     render() {
@@ -22,13 +18,13 @@ export default class Works extends React.Component {
                 <div className='cards'>
                     <div className='card'>
                         <div className="cardContents">
-                            <img src={ToDoKanri2} />
+                            <img src={ToDoKanri2} alt="todo管理" />
                             <p>ToDo管理</p>
                         </div>
                     </div>
                     <div className='card'>
                         <div className="cardContents">
-                            <img src={ToDoKanri} />
+                            <img src={ToDoKanri} alt="todo管理" />
                             <p>ToDo管理</p>
                         </div>
                     </div>
@@ -38,7 +34,7 @@ export default class Works extends React.Component {
                 <div className='cards'>
                     <div className='card'>
                         <div className="cardContents">
-                            <img src={tagMemo} />
+                            <img src={tagMemo} alt="todo管理" />
                             <p>タグメモ！</p>
                         </div>
                     </div>
@@ -48,19 +44,19 @@ export default class Works extends React.Component {
                 <div className='cards'>
                     <div className='card'>
                         <div className="cardContents">
-                            <img src={iceBreakShuffle} />
+                            <img src={iceBreakShuffle} alt="todo管理" />
                             <p>アイスブレイクシャッフル</p>
                         </div>
                     </div>
                     <div className='card'>
                         <div className="cardContents">
-                            <img src={homerun} />
+                            <img src={homerun} alt="todo管理" />
                             <p>ほめるん</p>
                         </div>
                     </div>
                     <div className='card'>
                         <div className="cardContents">
-                            <img src={negapuchi} />
+                            <img src={negapuchi} alt="todo管理" />
                             <p>ネガプチッ！</p>
                         </div>
                     </div>
@@ -69,10 +65,12 @@ export default class Works extends React.Component {
                 <h3>就職活動</h3>
                 <div className='cards'>
                     <div className='card'>
+                    <NavLink to='/jobHuntingProgressManage'>
                         <div className="cardContents">
-                            <img src={jhpm} />
+                            <img src={jhpm} alt="todo管理" />
                             <p>Job Hunting Progress Manage</p>
                         </div>
+                    </NavLink>
                     </div>
                 </div>
             </div>
