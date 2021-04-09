@@ -1,6 +1,6 @@
 import React from 'react';
+import taskList from './works/worksPhotos/taskList.png';
 import ToDoKanri from './works/worksPhotos/ToDoKanri.png';
-import ToDoKanri2 from './works/worksPhotos/ToDoKanri_02.png';
 import tagMemo from './works/worksPhotos/tagMemo.png';
 import iceBreakShuffle from './works/worksPhotos/iceBreakShuffle.png';
 import homerun from './works/worksPhotos/homerun.png';
@@ -19,7 +19,7 @@ export default class Works extends React.Component {
                     <div className='card'>
                         <NavLink to='/todokanri'>
                             <div className="cardContents">
-                                <img src={ToDoKanri2} alt="todo管理" />
+                                <img src={ToDoKanri} alt="todo管理" />
                                 <p>ToDo管理</p>
                             </div>
                         </NavLink>
@@ -27,8 +27,8 @@ export default class Works extends React.Component {
                     <div className='card'>
                         <NavLink to='/taskList'>
                             <div className="cardContents">
-                                <img src={ToDoKanri} alt="todo管理" />
-                                <p>ToDo管理</p>
+                                <img src={taskList} alt="todo管理" />
+                                <p>タスクリスト</p>
                             </div>
                         </NavLink>
                     </div>
