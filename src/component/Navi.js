@@ -11,6 +11,7 @@ import Profile from './Profile';
 import Skills from './Skills';
 import Works from './Works';
 import Contact from './Contact';
+import JHPM from './works/jobHuntingProgressManage';
 
 export default class Navi extends React.Component {
     render() {
@@ -40,9 +41,13 @@ export default class Navi extends React.Component {
                         <Route path='/Contact'>
                             <Contact />
                         </Route>
+                        <Route path="/jobHuntingProgressManage">
+                            <JHPM />
+                        </Route>
                         <Route path="/">
                             <Top />
                         </Route>
+
                     </Switch>
                 </div>
             </Router>
