@@ -17,26 +17,32 @@ export default class Works extends React.Component {
                 <h3>タスク管理</h3>
                 <div className='cards'>
                     <div className='card'>
-                        <div className="cardContents">
-                            <img src={ToDoKanri2} alt="todo管理" />
-                            <p>ToDo管理</p>
-                        </div>
+                        <NavLink to='/todokanri'>
+                            <div className="cardContents">
+                                <img src={ToDoKanri2} alt="todo管理" />
+                                <p>ToDo管理</p>
+                            </div>
+                        </NavLink>
                     </div>
                     <div className='card'>
-                        <div className="cardContents">
-                            <img src={ToDoKanri} alt="todo管理" />
-                            <p>ToDo管理</p>
-                        </div>
+                        <NavLink to='/taskList'>
+                            <div className="cardContents">
+                                <img src={ToDoKanri} alt="todo管理" />
+                                <p>ToDo管理</p>
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
 
                 <h3>日常</h3>
                 <div className='cards'>
                     <div className='card'>
-                        <div className="cardContents">
-                            <img src={tagMemo} alt="タグメモ！" />
-                            <p>タグメモ！</p>
-                        </div>
+                        <NavLink to='/tagMemo'>
+                            <div className="cardContents">
+                                <img src={tagMemo} alt="タグメモ！" />
+                                <p>タグメモ！</p>
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
 
