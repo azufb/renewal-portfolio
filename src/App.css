@@ -116,6 +116,10 @@ img {
   height: auto;
 }
 
+.card img:hover {
+  opacity: 0.3;
+}
+
 .card p {
   text-align: center;
 }
