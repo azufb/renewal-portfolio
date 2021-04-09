@@ -34,7 +34,7 @@ export default class Works extends React.Component {
                 <div className='cards'>
                     <div className='card'>
                         <div className="cardContents">
-                            <img src={tagMemo} alt="todo管理" />
+                            <img src={tagMemo} alt="タグメモ！" />
                             <p>タグメモ！</p>
                         </div>
                     </div>
@@ -43,34 +43,40 @@ export default class Works extends React.Component {
                 <h3>エンタメ</h3>
                 <div className='cards'>
                     <div className='card'>
-                        <div className="cardContents">
-                            <img src={iceBreakShuffle} alt="todo管理" />
-                            <p>アイスブレイクシャッフル</p>
-                        </div>
+                        <NavLink to='/iceBreakShuffle'>
+                            <div className="cardContents">
+                                <img src={iceBreakShuffle} alt="アイスブレイクシャッフル" />
+                                <p>アイスブレイクシャッフル</p>
+                            </div>
+                        </NavLink>
                     </div>
                     <div className='card'>
-                        <div className="cardContents">
-                            <img src={homerun} alt="todo管理" />
-                            <p>ほめるん</p>
-                        </div>
+                        <NavLink to='/homerun'>
+                            <div className="cardContents">
+                                <img src={homerun} alt="ほめるん" />
+                                <p>ほめるん</p>
+                            </div>
+                        </NavLink>
                     </div>
                     <div className='card'>
-                        <div className="cardContents">
-                            <img src={negapuchi} alt="todo管理" />
-                            <p>ネガプチッ！</p>
-                        </div>
+                        <NavLink to='/negapuchi'>
+                            <div className="cardContents">
+                                <img src={negapuchi} alt="ネガプチッ！" />
+                                <p>ネガプチッ！</p>
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
 
                 <h3>就職活動</h3>
                 <div className='cards'>
                     <div className='card'>
-                    <NavLink to='/jobHuntingProgressManage'>
-                        <div className="cardContents">
-                            <img src={jhpm} alt="todo管理" />
-                            <p>Job Hunting Progress Manage</p>
-                        </div>
-                    </NavLink>
+                        <NavLink to='/jobHuntingProgressManage'>
+                            <div className="cardContents">
+                                <img src={jhpm} alt="jhpm" />
+                                <p>Job Hunting Progress Manage</p>
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
             </div>

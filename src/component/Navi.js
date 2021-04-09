@@ -12,6 +12,9 @@ import Skills from './Skills';
 import Works from './Works';
 import Contact from './Contact';
 import JHPM from './works/jobHuntingProgressManage';
+import Homerun from './works/homerun';
+import Negapuchi from './works/negapuchi';
+import IBS from './works/randomIceBreak';
 
 export default class Navi extends React.Component {
     render() {
@@ -40,6 +43,15 @@ export default class Navi extends React.Component {
                         </Route>
                         <Route path='/Contact'>
                             <Contact />
+                        </Route>
+                        <Route path="/iceBreakShuffle">
+                            <IBS />
+                        </Route>
+                        <Route path="/homerun">
+                            <Homerun />
+                        </Route>
+                        <Route path="/negapuchi">
+                            <Negapuchi />
                         </Route>
                         <Route path="/jobHuntingProgressManage">
                             <JHPM />
