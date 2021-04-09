@@ -11,10 +11,13 @@ import Profile from './Profile';
 import Skills from './Skills';
 import Works from './Works';
 import Contact from './Contact';
-import JHPM from './works/jobHuntingProgressManage';
+import TaskList from './works/taskList';
+import ToDoKanri from './works/todokanri';
+import TagMemo from './works/tagMemo';
+import IBS from './works/randomIceBreak';
 import Homerun from './works/homerun';
 import Negapuchi from './works/negapuchi';
-import IBS from './works/randomIceBreak';
+import JHPM from './works/jobHuntingProgressManage';
 
 export default class Navi extends React.Component {
     render() {
@@ -43,6 +46,15 @@ export default class Navi extends React.Component {
                         </Route>
                         <Route path='/Contact'>
                             <Contact />
+                        </Route>
+                        <Route path="/taskList">
+                            <TaskList />
+                        </Route>
+                        <Route path="/todokanri">
+                            <ToDoKanri />
+                        </Route>
+                        <Route path="/tagMemo">
+                            <TagMemo />
                         </Route>
                         <Route path="/iceBreakShuffle">
                             <IBS />
