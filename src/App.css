@@ -103,6 +103,10 @@ img {
   height: auto;
 }
 
+.card:nth-child(n+2) {
+  margin-left: 10px;
+}
+
 .cardContents {
   padding: 10px;
 }
