@@ -12,7 +12,7 @@ import { NavLink } from 'react-router-dom';
 export default class Works extends React.Component {
     render() {
         return (
-            <div>
+            <div className="works">
                 <h2>成果物</h2>
                 <h3>タスク管理</h3>
                 <div className='cards'>
