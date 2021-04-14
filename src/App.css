@@ -92,6 +92,11 @@ img {
 }
 
 /* My Worksページ */
+.works {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .cards {
   display: flex;
 }
@@ -99,7 +104,7 @@ img {
 .card {
   border: 1px solid #ccc;
   border-radius: 10px;
-  width: 250px;
+  width: 300px;
   height: auto;
 }
 
@@ -112,7 +117,7 @@ img {
 }
 
 .card img {
-  width: 230px;
+  width: 280px;
   height: auto;
 }
 
