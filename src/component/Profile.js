@@ -3,7 +3,7 @@ import React from 'react';
 export default class About extends React.Component {
     render() {
         return (
-            <div>
+            <div className="profile">
                 <h2>Profile</h2>
                 <h3>名前：</h3>
                 <p>Azusa</p>
