@@ -6,7 +6,7 @@ import VueIcon from './../Vue.png';
 export default class Skills extends React.Component {
     render() {
         return (
-            <div>
+            <div className="skills">
                 <h2>スキル・資格</h2>
                 <h3>スキル</h3>
                 <p>

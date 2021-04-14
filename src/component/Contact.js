@@ -3,7 +3,7 @@ import React from 'react';
 export default class Contact extends React.Component {
     render() {
         return (
-            <div>
+            <div className="contact">
                 <h2>お問い合わせ</h2>
                 <p>
                     お問い合わせは、以下のフォームから受付しております。<br />

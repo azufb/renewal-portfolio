@@ -3,7 +3,7 @@ import React from 'react';
 export default class Top extends React.Component {
     render() {
         return (
-            <div>
+            <div className="top">
                 <h3 className='newsTitle'>NEWS!</h3>
                 <div className='newsBox'>
                     <table>

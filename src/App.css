@@ -29,6 +29,11 @@ h1 {
 }
 
 /* TOPページのNEWS部分 */
+.top {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .newsTitle {
   border-top: 1px solid black;
   border-left: 1px solid black;
@@ -45,6 +50,11 @@ h1 {
 }
 
 /* 経歴年表 */
+.profile {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .timeline > li {
   overflow: hidden;
   margin: 0;
@@ -76,12 +86,22 @@ h1 {
 }
 
 /* スキルのアイコン画像 */
+.skills {
+  width: 900px;
+  margin: 0 auto;
+}
+
 img {
   width: 150px;
   height: auto;
 }
 
 /* お問い合わせリンク*/
+.contact {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .formLink {
   border: 1px solid #ccc;
   border-radius: 10px;
