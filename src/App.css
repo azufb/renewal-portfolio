@@ -5,18 +5,29 @@
 }
 
 /* ナビゲーション */
+.titles {
+  display: table;
+  width: 990px;
+  margin: 0 auto;
+}
+
 a {
   color: black;
   text-decoration: none;
 }
 
-h1 {
+.titles p {
   text-align: center;
+  display: table-cell;
+  text-align: left;
+  font-size: 40px;
 }
 
 .navi {
   display: flex;
   justify-content: center;
+  display: table-cell;
+  text-align: right;
 }
 
 .navi a.active {
@@ -30,7 +41,7 @@ h1 {
 
 /* TOPページのNEWS部分 */
 .top {
-  width: 900px;
+  width: 990px;
   margin: 0 auto;
 }
 
@@ -51,7 +62,7 @@ h1 {
 
 /* 経歴年表 */
 .profile {
-  width: 900px;
+  width: 990px;
   margin: 0 auto;
 }
 
@@ -87,7 +98,7 @@ h1 {
 
 /* スキルのアイコン画像 */
 .skills {
-  width: 900px;
+  width: 990px;
   margin: 0 auto;
 }
 
@@ -98,7 +109,7 @@ img {
 
 /* お問い合わせリンク*/
 .contact {
-  width: 900px;
+  width: 990px;
   margin: 0 auto;
 }
 
@@ -113,7 +124,7 @@ img {
 
 /* My Worksページ */
 .works {
-  width: 900px;
+  width: 990px;
   margin: 0 auto;
 }
 
@@ -124,7 +135,7 @@ img {
 .card {
   border: 1px solid #ccc;
   border-radius: 10px;
-  width: 300px;
+  width: 330px;
   height: auto;
 }
 
@@ -137,7 +148,7 @@ img {
 }
 
 .card img {
-  width: 280px;
+  width: 310px;
   height: auto;
 }
 
