@@ -42,7 +42,7 @@ export default class About extends React.Component {
                         <div className='timeline-content'>
                             <h3>高校入学</h3>
                             <p>
-                                兵庫県立国際高等学校に入学。<br />
+                                高校に入学。<br />
                                 小学5年生〜中学3年生まで、英会話を習っており、英語教育に力を入れている高校を選択。
                             </p>
                         </div>
@@ -62,7 +62,7 @@ export default class About extends React.Component {
                         <p className='timeline-date'>2016年3月</p>
                         <div className='timeline-content'>
                             <h3>高校卒業</h3>
-                            <p>兵庫県立国際高等学校を卒業。</p>
+                            <p>高校を卒業。</p>
                         </div>
                     </li>
                     <li>
@@ -70,7 +70,7 @@ export default class About extends React.Component {
                         <div className='timeline-content'>
                             <h3>大学入学</h3>
                             <p>
-                                関西学院大学 商学部に入学。<br />
+                                大学に入学。<br />
                                 貿易に興味があった且つ英語以外についても学びたかったため、商学部を選択。
                             </p>
                         </div>
@@ -99,7 +99,7 @@ export default class About extends React.Component {
                         <p className='timeline-date'>2020年3月</p>
                         <div className='timeline-content'>
                             <h3>大学卒業</h3>
-                            <p>関西学院大学 商学部を卒業。</p>
+                            <p>大学を卒業。</p>
                         </div>
                     </li>
                     <li>
