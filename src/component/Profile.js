@@ -139,7 +139,7 @@ export default class About extends React.Component {
                     <li>
                         <p className='timeline-date'>2020年4月</p>
                         <div className='timeline-content'>
-                            <h3 className="timeline_title">プログラミング学習スタート</h3>
+                            <h3 className="timeline_title">プログラミング学習スタート！</h3>
                             <p>本格的にプログラミング学習を開始した。</p>
                         </div>
                     </li>

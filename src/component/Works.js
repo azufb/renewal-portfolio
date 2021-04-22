@@ -23,7 +23,7 @@ export default class Works extends React.Component {
                                     <img src={ToDoKanri} alt="todo管理" />
                                     <p>
                                         ToDo管理<br />
-                                        2020年9月12日
+                                        <span className="finishedDate">2020年9月12日</span>
                                     </p>
                                 </div>
                             </NavLink>
@@ -34,7 +34,7 @@ export default class Works extends React.Component {
                                     <img src={taskList} alt="todo管理" />
                                     <p>
                                         タスクリスト<br />
-                                        2020年7月5日
+                                        <span className="finishedDate">2020年7月5日</span>
                                     </p>
                                 </div>
                             </NavLink>
@@ -51,7 +51,7 @@ export default class Works extends React.Component {
                                     <img src={tagMemo} alt="タグメモ！" />
                                     <p>
                                         タグメモ！<br />
-                                        2020年8月11日
+                                        <span className="finishedDate">2020年8月11日</span>
                                     </p>
                                 </div>
                             </NavLink>
@@ -68,7 +68,7 @@ export default class Works extends React.Component {
                                     <img src={negapuchi} alt="ネガプチッ！" />
                                     <p>
                                         ネガプチッ！<br />
-                                        2021年3月26日
+                                        <span className="finishedDate">2021年3月26日</span>
                                     </p>
                                 </div>
                             </NavLink>
@@ -79,7 +79,7 @@ export default class Works extends React.Component {
                                     <img src={iceBreakShuffle} alt="アイスブレイクシャッフル" />
                                     <p>
                                         アイスブレイクシャッフル<br />
-                                        2021年2月9日
+                                        <span className="finishedDate">2021年2月9日</span>
                                     </p>
                                 </div>
                             </NavLink>
@@ -90,7 +90,7 @@ export default class Works extends React.Component {
                                     <img src={homerun} alt="ほめるん" />
                                     <p>
                                         ほめるん<br />
-                                        2020年7月19日
+                                        <span className="finishedDate">2020年7月19日</span>
                                     </p>
                                 </div>
                             </NavLink>
@@ -107,7 +107,7 @@ export default class Works extends React.Component {
                                     <img src={jhpm} alt="jhpm" />
                                     <p>
                                         Job Hunting Progress Manage<br />
-                                        2020年10月24日
+                                        <span className="finishedDate">2020年10月24日</span>
                                     </p>
                                 </div>
                             </NavLink>
