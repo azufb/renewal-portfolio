@@ -52,18 +52,12 @@ a {
 }
 
 .newsTitle {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
   margin-bottom: 0px;
 }
 
-.newsBox {
-  border: 1px solid black;
-}
 
 .newsBox table {
-  padding: 15px;
+  padding: 15px 0;
 }
 
 /* 経歴年表 */
