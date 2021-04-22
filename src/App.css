@@ -233,7 +233,7 @@ h3 {
 }
 
 .number {
-  background: #113A8C;
+  background-color: #113A8C;
   width: 24px;
   height: 24px;
   border-radius: 10%;
@@ -249,6 +249,30 @@ h3 {
 
 .howtouse p {
   margin-top: 0px;
+}
+
+.videoBox {
+  text-align: center;
+}
+
+.video {
+  width: 710px;
+}
+
+.appLink {
+  background-color: #113A8C;
+  text-align: center;
+  width: 710px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.appLink p {
+  padding: 10px 0;
+}
+
+.appLink a {
+  color: #fff;
 }
 
 /* お問い合わせリンク*/
