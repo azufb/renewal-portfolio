@@ -52,7 +52,12 @@ export default class IBS extends React.Component {
                 <h3>使用技術</h3>
                 <div className="contentsBox">
                     <p>
-                        React
+                        React.js
+                    </p>
+                    <p>
+                        <a href="https://github.com/azufb/randomIceBreak" target='_blank' rel='noopener noreferrer'>
+                            <i className='fab fa-github fa-3x'></i>
+                        </a>
                     </p>
                 </div>
             </div>

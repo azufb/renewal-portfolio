@@ -21,7 +21,10 @@ export default class Works extends React.Component {
                             <NavLink to='/todokanri'>
                                 <div className="cardContents">
                                     <img src={ToDoKanri} alt="todo管理" />
-                                    <p>ToDo管理</p>
+                                    <p>
+                                        ToDo管理<br />
+                                        2020年9月12日
+                                    </p>
                                 </div>
                             </NavLink>
                         </div>
@@ -29,7 +32,10 @@ export default class Works extends React.Component {
                             <NavLink to='/taskList'>
                                 <div className="cardContents">
                                     <img src={taskList} alt="todo管理" />
-                                    <p>タスクリスト</p>
+                                    <p>
+                                        タスクリスト<br />
+                                        2020年7月5日
+                                    </p>
                                 </div>
                             </NavLink>
                         </div>
@@ -43,7 +49,10 @@ export default class Works extends React.Component {
                             <NavLink to='/tagMemo'>
                                 <div className="cardContents">
                                     <img src={tagMemo} alt="タグメモ！" />
-                                    <p>タグメモ！</p>
+                                    <p>
+                                        タグメモ！<br />
+                                        2020年8月11日
+                                    </p>
                                 </div>
                             </NavLink>
                         </div>
@@ -54,10 +63,24 @@ export default class Works extends React.Component {
                 <div className="cardsList">
                     <div className='cards'>
                         <div className='card'>
+                            <NavLink to='/negapuchi'>
+                                <div className="cardContents">
+                                    <img src={negapuchi} alt="ネガプチッ！" />
+                                    <p>
+                                        ネガプチッ！<br />
+                                        2021年3月26日
+                                    </p>
+                                </div>
+                            </NavLink>
+                        </div>
+                        <div className='card'>
                             <NavLink to='/iceBreakShuffle'>
                                 <div className="cardContents">
                                     <img src={iceBreakShuffle} alt="アイスブレイクシャッフル" />
-                                    <p>アイスブレイクシャッフル</p>
+                                    <p>
+                                        アイスブレイクシャッフル<br />
+                                        2021年2月9日
+                                    </p>
                                 </div>
                             </NavLink>
                         </div>
@@ -65,15 +88,10 @@ export default class Works extends React.Component {
                             <NavLink to='/homerun'>
                                 <div className="cardContents">
                                     <img src={homerun} alt="ほめるん" />
-                                    <p>ほめるん</p>
-                                </div>
-                            </NavLink>
-                        </div>
-                        <div className='card'>
-                            <NavLink to='/negapuchi'>
-                                <div className="cardContents">
-                                    <img src={negapuchi} alt="ネガプチッ！" />
-                                    <p>ネガプチッ！</p>
+                                    <p>
+                                        ほめるん<br />
+                                        2020年7月19日
+                                    </p>
                                 </div>
                             </NavLink>
                         </div>
@@ -87,7 +105,10 @@ export default class Works extends React.Component {
                             <NavLink to='/jobHuntingProgressManage'>
                                 <div className="cardContents">
                                     <img src={jhpm} alt="jhpm" />
-                                    <p>Job Hunting Progress Manage</p>
+                                    <p>
+                                        Job Hunting Progress Manage<br />
+                                        2020年10月24日
+                                    </p>
                                 </div>
                             </NavLink>
                         </div>

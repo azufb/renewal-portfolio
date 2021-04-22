@@ -58,7 +58,12 @@ export default class JHPM extends React.Component {
                 <h3>使用技術</h3>
                 <div className="contentsBox">
                     <p>
-                        Vue.js、Vuex、Vuex persistedstate、Firebase Authentication
+                        Vue.js・Vuex・Vuex persistedstate・Vue-router・Firebase Authentication
+                    </p>
+                    <p>
+                        <a href="https://github.com/azufb/jobHuntProgressList" target='_blank' rel='noopener noreferrer'>
+                            <i className='fab fa-github fa-3x'></i>
+                        </a>
                     </p>
                 </div>
             </div>

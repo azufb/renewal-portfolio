@@ -49,7 +49,12 @@ export default class TaskList extends React.Component {
                 <h3>使用技術</h3>
                 <div className="contentsBox">
                     <p>
-                        React
+                        Vue.js
+                    </p>
+                    <p>
+                        <a href="https://github.com/azufb/ToDoAppwithVue.js" target='_blank' rel='noopener noreferrer'>
+                            <i className='fab fa-github fa-3x'></i>
+                        </a>
                     </p>
                 </div>
             </div>
