@@ -139,6 +139,44 @@ h3 {
   margin-top: 0px;
 }
 
+/* My Worksページ */
+.works {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  border: 1px solid #333333;
+  border-radius: 10px;
+  width: 330px;
+  height: auto;
+  background-color: #fff;
+}
+
+.card:nth-child(n+2) {
+  margin-left: 10px;
+}
+
+.card img {
+  width: 330px;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+.card p {
+  text-align: center;
+  color: #333333;
+}
+
 /* お問い合わせリンク*/
 .contact {
   width: 990px;
@@ -152,44 +190,6 @@ h3 {
   padding: 10px;
   /*box-shadow: 0 4px 4px rgba(0,0,0,0.3);*/
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px;
-}
-
-/* My Worksページ */
-.works {
-  width: 990px;
-  margin: 0 auto;
-}
-
-.cards {
-  display: flex;
-}
-
-.card {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  width: 330px;
-  height: auto;
-}
-
-.card:nth-child(n+2) {
-  margin-left: 10px;
-}
-
-.cardContents {
-  padding: 10px;
-}
-
-.card img {
-  width: 310px;
-  height: auto;
-}
-
-.card img:hover {
-  opacity: 0.3;
-}
-
-.card p {
-  text-align: center;
 }
 
 /* フッター */
