@@ -29,12 +29,12 @@ export default class Navi extends React.Component {
                             <Link to="/">Azu's Portfolio</Link>
                         </p>
                         <div className='navi'>
-                            <NavLink to="/Profile">Profile</NavLink><span className='verticalB'>/</span>
-                            <NavLink to="/Skills">Skills</NavLink><span className='verticalB'>/</span>
-                            <NavLink to="/Works">Works</NavLink><span className='verticalB'>/</span>
+                            <NavLink to="/Profile">Profile</NavLink>
+                            <NavLink to="/Skills">Skills</NavLink>
+                            <NavLink to="/Works">Works</NavLink>
                             {/*<NavLink to='/Contact'>Contact</NavLink><span className='verticalB'>/</span>*/}
                             <a href='https://forms.gle/orrcWKjtYrPiXdfx5' target='_blank' rel='noopener noreferrer'>
-                                Contact<i className="fas fa-external-link-alt"></i>
+                                Contact<i className="fas fa-external-link-alt nav_contact"></i>
                             </a>
                         </div>
                     </div>

@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #dee1e1;
+  background-color: #dee2e0;
   color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* ナビゲーション */
@@ -19,10 +20,15 @@ a {
 }
 
 .titles p {
-  text-align: center;
   display: table-cell;
   text-align: left;
-  font-size: 40px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.titles p a {
+  color: #B50100;
 }
 
 .titles a {
@@ -34,15 +40,19 @@ a {
   justify-content: center;
   display: table-cell;
   text-align: right;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navi a:nth-child(n+2) {
+  margin-left: 30px;
 }
 
 .navi a.active {
   text-decoration: 2px underline #113A8C;
 }
 
-.verticalB {
-  padding-left: 10px;
-  padding-right: 10px;
+.nav_contact {
+  padding-left: 5px;
 }
 
 /* TOPページのNEWS部分 */
@@ -51,19 +61,23 @@ a {
   margin: 0 auto;
 }
 
-.newsTitle {
-  margin-bottom: 0px;
-}
-
-
 .newsBox table {
   padding: 15px 0;
+}
+
+.top h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* 経歴年表 */
 .profile {
   width: 990px;
   margin: 0 auto;
+}
+
+.profile h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #113A8C;
 }
 
 .twitterLink {
@@ -144,6 +158,11 @@ a {
   margin: 0 auto;
 }
 
+.skills h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #113A8C;
+}
+
 h3 {
   border-bottom: 2px solid #113A8C;
 }
@@ -159,6 +178,7 @@ h3 {
 .category {
   background-color: #c1c4c4;
   margin-bottom: 15px;
+  padding: 10px 0;
 }
 
 .lists .list {
@@ -171,6 +191,10 @@ h3 {
   margin-top: 0px;
 }
 
+.list i {
+  color: #113A8C;
+}
+
 .comment {
   margin-top: 0px;
 }
@@ -179,6 +203,11 @@ h3 {
 .works {
   width: 990px;
   margin: 0 auto;
+}
+
+.works h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #113A8C;
 }
 
 .worksCategory {
@@ -232,12 +261,17 @@ h3 {
   margin: 0 auto;
 }
 
+.detailContents h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #113A8C;
+}
+
 .howtouse {
   display: flex;
 }
 
 .number {
-  background-color: #113A8C;
+  background-color: #20448E;
   width: 24px;
   height: 24px;
   border-radius: 10%;
@@ -247,8 +281,7 @@ h3 {
   color: #fff;
   display: block;
   text-align: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  font-size: 15px;
 }
 
 .howtouse p {
@@ -264,7 +297,7 @@ h3 {
 }
 
 .appLink {
-  background-color: #113A8C;
+  background-color: #20448E;
   text-align: center;
   width: 710px;
   margin: 0 auto;
@@ -277,6 +310,10 @@ h3 {
 
 .appLink a {
   color: #fff;
+}
+
+.appLink:hover {
+  opacity: 0.5;
 }
 
 /* お問い合わせリンク*/
@@ -299,10 +336,3 @@ footer {
   text-align: center;
   margin-top: auto;
 }
-
-/*.timeline {
-  list-style: none;
-}
-.timeline > li {
-  margin-bottom: 60px;
-}*/
