@@ -72,10 +72,36 @@ a {
   margin: 0 auto;
 }
 
-.timeline > li {
+.timeline_title {
+  border-bottom: none;
+}
+
+.timeline li {
   overflow: hidden;
   margin: 0;
   position: relative;
+}
+
+.timeline .hiddenOne {
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+
+.hiddens {
+  visibility: hidden;
+}
+
+.hiddenC h3 {
+  visibility: hidden;
+}
+
+.hiddenC p {
+  visibility: hidden;
+}
+
+.hiddenC:before {
+  visibility: hidden;
 }
 
 .timeline-date {
