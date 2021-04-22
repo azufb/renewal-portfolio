@@ -5,10 +5,10 @@ export default class About extends React.Component {
         return (
             <div className="profile">
                 <h2>Profile</h2>
-                <h3>名前：</h3>
+                <h3>名前</h3>
                 <p>Azusa</p>
 
-                <h3>SNSなど：</h3>
+                <h3>SNSなど</h3>
                 <p>
                     <a href='https://twitter.com/azunasuuu' target='_blank' rel='noopener noreferrer'>
                         <i className='fab fa-twitter-square fa-3x'></i>
@@ -22,13 +22,13 @@ export default class About extends React.Component {
                     </a>
                 </p>
 
-                <h3>趣味：</h3>
+                <h3>趣味</h3>
                 <p>
                     最近は、読書をよくしています。<br />
                     自己啓発系統も読みますし、経営論のようなビジネスジャンルも読みます。
                 </p>
 
-                <h3>経歴：</h3>
+                <h3>経歴</h3>
                 <ul className='timeline'>
                     <li>
                         <p className='timeline-date'>1998年2月</p>
