@@ -177,6 +177,12 @@ h3 {
   color: #333333;
 }
 
+/* 成果物詳細ページ */
+.detailContents {
+  width: 990px;
+  margin: 0 auto;
+}
+
 /* お問い合わせリンク*/
 .contact {
   width: 990px;
