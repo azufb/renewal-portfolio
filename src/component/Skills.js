@@ -4,7 +4,7 @@ export default class Skills extends React.Component {
     render() {
         return (
             <div className="skills">
-                <h2>スキル・資格</h2>
+                <h2>Skills</h2>
                 <h3>プログラミングスキル</h3>
                 <div className="contentsBox">
                     <p>

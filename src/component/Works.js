@@ -13,7 +13,7 @@ export default class Works extends React.Component {
     render() {
         return (
             <div className="works">
-                <h2>成果物</h2>
+                <h2>Works</h2>
                 <h3 className="worksCategory">タスク管理</h3>
                 <div className="cardsList">
                     <div className='cards'>
