@@ -1,7 +1,4 @@
 import React from 'react';
-import JSIcon from './../JavaScript.png';
-import ReactIcon from './../react.png';
-import VueIcon from './../Vue.png';
 
 export default class Skills extends React.Component {
     render() {
@@ -16,26 +13,26 @@ export default class Skills extends React.Component {
                 <h4 className="category">言語</h4>
                 <div className="lists">
                     <p className="list">
-                        <i class="fas fa-medal"></i>JavaScript
+                        <i className="fas fa-medal"></i>JavaScript
                     </p>
                     <p className="comment">
-                        <i class="far fa-comment-dots"></i>サーバーサイドもフロントエンドも担える言語で、すごいと思い、勉強し始めた。
+                        <i className="far fa-comment-dots"></i>サーバーサイドもフロントエンドも担える言語で、すごいと思い、勉強し始めた。
                     </p>
                 </div>
                 
                 <h4 className="category">ライブラリ・フレームワーク</h4>
                 <div className="lists">
                     <p className="list">
-                        <i class="fas fa-medal"></i>React.js
+                        <i className="fas fa-medal"></i>React.js
                     </p>
                     {/*<p className="comment">
-                        <i class="far fa-comment-dots"></i>
+                        <i className="far fa-comment-dots"></i>
                     </p>*/}
                     <p className="list">
-                        <i class="fas fa-medal"></i>Vue.js
+                        <i className="fas fa-medal"></i>Vue.js
                     </p>
                     {/*<p className="comment">
-                        <i class="far fa-comment-dots"></i>
+                        <i className="far fa-comment-dots"></i>
                     </p>*/}
                 </div>
 
@@ -46,22 +43,22 @@ export default class Skills extends React.Component {
                 </p>
                 <div className="lists">
                     <p className="list">
-                        <i class="fas fa-medal"></i>ITパスポート試験(2020年06月)
+                        <i className="fas fa-medal"></i>ITパスポート試験(2020年06月)
                     </p>
                     <p className="list">
-                        <i class="fas fa-medal"></i>Excel VBAスタンダード(2020年02月)
+                        <i className="fas fa-medal"></i>Excel VBAスタンダード(2020年02月)
                     </p>
                     <p className="list">
-                        <i class="fas fa-medal"></i>TOEIC785点(2018年06月)
+                        <i className="fas fa-medal"></i>TOEIC785点(2018年06月)
                     </p>
                     <p className="list">
-                        <i class="fas fa-medal"></i>日商ビジネス英語検定3級(2018年04月)
+                        <i className="fas fa-medal"></i>日商ビジネス英語検定3級(2018年04月)
                     </p>
                     <p className="list">
-                        <i class="fas fa-medal"></i>日商簿記3級(2017年02月)
+                        <i className="fas fa-medal"></i>日商簿記3級(2017年02月)
                     </p>
                     <p className="comment">
-                        <i class="far fa-comment-dots"></i>私が所属していた学部では、簿記基礎が必須科目で、定期考査の勉強も兼ねて、受験。
+                        <i className="far fa-comment-dots"></i>私が所属していた学部では、簿記基礎が必須科目で、定期考査の勉強も兼ねて、受験。
                     </p>
                 </div>
             </div>

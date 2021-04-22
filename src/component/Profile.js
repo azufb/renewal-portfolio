@@ -40,14 +40,14 @@ export default class About extends React.Component {
                     <li className="hiddenOne">
                         <p className='timeline-date hiddens'></p>
                         <div className='timeline-content hiddenC'>
-                            <h3 className="timeline_title"></h3>
+                            <h3 className="timeline_title">xxx</h3>
                             <p>hidden</p>
                         </div>
                     </li>
                     <li className="hiddenOne">
                         <p className='timeline-date hiddens'></p>
                         <div className='timeline-content hiddenC'>
-                            <h3 className="timeline_title"></h3>
+                            <h3 className="timeline_title">xxx</h3>
                             <p>hidden</p>
                         </div>
                     </li>
@@ -75,7 +75,7 @@ export default class About extends React.Component {
                     <li className="hiddenOne">
                         <p className='timeline-date hiddens'></p>
                         <div className='timeline-content hiddenC'>
-                            <h3 className="timeline_title"></h3>
+                            <h3 className="timeline_title">xxx</h3>
                             <p>hidden</p>
                         </div>
                     </li>
@@ -109,7 +109,7 @@ export default class About extends React.Component {
                     <li className="hiddenOne">
                         <p className='timeline-date hiddens'></p>
                         <div className='timeline-content hiddenC'>
-                            <h3 className="timeline_title"></h3>
+                            <h3 className="timeline_title">xxx</h3>
                             <p>hidden</p>
                         </div>
                     </li>
