@@ -66,6 +66,14 @@ a {
   margin: 0 auto;
 }
 
+.contentsBox {
+  margin-bottom: 50px;
+}
+
+.timeline {
+  padding: 0px;
+}
+
 .timeline_title {
   border-bottom: none;
 }

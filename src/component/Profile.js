@@ -6,27 +6,33 @@ export default class About extends React.Component {
             <div className="profile">
                 <h2>Profile</h2>
                 <h3>名前</h3>
-                <p>Azusa</p>
+                <div className="contentsBox">
+                    <p>Azusa</p>
+                </div>
 
                 <h3>SNSなど</h3>
-                <p>
-                    <a href='https://twitter.com/azunasuuu' target='_blank' rel='noopener noreferrer'>
-                        <i className='fab fa-twitter-square fa-3x'></i>
-                    </a>
-                    <a href='https://github.com/azufb' target='_blank' rel='noopener noreferrer'>
-                        <i className='fab fa-github fa-3x'></i>
-                    </a>
-                    <br />
-                    <a href='https://qiita.com/azunas' target='_blank' rel='noopener noreferrer'>
-                        Qiitaはこちら！<i className="fas fa-external-link-alt"></i>
-                    </a>
-                </p>
+                <div className="contentsBox">
+                    <p>
+                        <a href='https://twitter.com/azunasuuu' target='_blank' rel='noopener noreferrer'>
+                            <i className='fab fa-twitter-square fa-3x'></i>
+                        </a>
+                        <a href='https://github.com/azufb' target='_blank' rel='noopener noreferrer'>
+                            <i className='fab fa-github fa-3x'></i>
+                        </a>
+                        <br />
+                        <a href='https://qiita.com/azunas' target='_blank' rel='noopener noreferrer'>
+                            Qiitaはこちら！<i className="fas fa-external-link-alt"></i>
+                        </a>
+                    </p>
+                </div>
 
                 <h3>趣味</h3>
-                <p>
-                    最近は、読書をよくしています。<br />
-                    自己啓発系統も読みますし、経営論のようなビジネスジャンルも読みます。
-                </p>
+                <div className="contentsBox">
+                    <p>
+                        最近は、読書をよくしています。<br />
+                        自己啓発系統も読みますし、経営論のようなビジネスジャンルも読みます。
+                    </p>
+                </div>
 
                 <h3>経歴</h3>
                 <ul className='timeline'>
