@@ -145,24 +145,33 @@ h3 {
   margin: 0 auto;
 }
 
+.worksCategory {
+  margin-top: 0px;
+}
+
+.cardsList {
+  margin-bottom: 50px;
+}
+
 .cards {
+  margin-top: 20px;
   display: flex;
 }
 
 .card {
   border: 1px solid #333333;
   border-radius: 10px;
-  width: 330px;
+  width: 323px;
   height: auto;
   background-color: #fff;
 }
 
 .card:nth-child(n+2) {
-  margin-left: 10px;
+  margin-left: 7.5px;
 }
 
 .card img {
-  width: 330px;
+  width: 323px;
   height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
