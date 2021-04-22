@@ -14,9 +14,9 @@ export default class About extends React.Component {
                 <div className="contentsBox">
                     <p>
                         <a href='https://twitter.com/azunasuuu' target='_blank' rel='noopener noreferrer'>
-                            <i className='fab fa-twitter-square fa-3x'></i>
+                            <i className='fab fa-twitter-square fa-3x twitterLink'></i>
                         </a>
-                        <a href='https://github.com/azufb' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://github.com/azufb' target='_blank' rel='noopener noreferrer' className="githubIcon">
                             <i className='fab fa-github fa-3x'></i>
                         </a>
                         <br />
