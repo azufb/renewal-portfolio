@@ -4,7 +4,7 @@ export default class Top extends React.Component {
     render() {
         return (
             <div className="top">
-                <h3 className='newsTitle'>NEWS!</h3>
+                <h3 className='newsTitle'>NEWS</h3>
                 <div className="contentsBox">
                     <table>
                         <tbody>
