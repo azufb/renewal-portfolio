@@ -59,7 +59,12 @@ export default class ToDoKanri extends React.Component {
                 <h3>使用技術</h3>
                 <div className="contentsBox">
                     <p>
-                        React
+                        Vue.js・Vuex・Vuex PersistedState
+                    </p>
+                    <p>
+                        <a href="https://github.com/azufb/ToDoAppwithPraise" target='_blank' rel='noopener noreferrer'>
+                            <i className='fab fa-github fa-3x'></i>
+                        </a>
                     </p>
                 </div>
             </div>
