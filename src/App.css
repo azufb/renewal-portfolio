@@ -37,7 +37,7 @@ a {
 }
 
 .navi a.active {
-  text-decoration: underline;
+  text-decoration: 2px underline #113A8C;
 }
 
 .verticalB {
@@ -87,7 +87,7 @@ a {
 .timeline-content {
   width: 75%;
   float: left;
-  border-left: 3px solid rgb(212, 209, 209);
+  border-left: 3px solid #ccc;
   padding-left: 30px;
 }
 
@@ -95,7 +95,7 @@ a {
   content: '';
   width: 12px;
   height: 12px;
-  background: black;
+  background: #113A8C;
   position: absolute;
   left: 106px;
   top: 24px;
@@ -181,6 +181,29 @@ h3 {
 .detailContents {
   width: 990px;
   margin: 0 auto;
+}
+
+.howtouse {
+  display: flex;
+}
+
+.number {
+  background: #113A8C;
+  width: 24px;
+  height: 24px;
+  border-radius: 10%;
+}
+
+.number span {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.howtouse p {
+  margin-top: 0px;
 }
 
 /* お問い合わせリンク*/

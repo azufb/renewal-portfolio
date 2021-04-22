@@ -26,12 +26,14 @@ export default class Negapuchi extends React.Component {
                 </p>
 
                 <h3>使い方</h3>
-                <p>
-                    1. 誰かから送られてきた受け止めきれないようなテキストを入力。コピペでOK！
-                </p>
-                <p>
-                    2. プチッ！とボタンを押すと、絵文字付きで元気なテキストが表示されます！
-                </p>
+                <div className="howtouse">
+                    <div className="number"><span>1</span></div>
+                    <p>誰かから送られてきた受け止めきれないようなテキストを入力。コピペでOK！</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>2</span></div>
+                    <p>プチッ！とボタンを押すと、絵文字付きで元気なテキストが表示されます！</p>
+                </div>
 
                 <h3>作成したきっかけ</h3>
                 <p>

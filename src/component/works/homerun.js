@@ -22,12 +22,14 @@ export default class Homerun extends React.Component {
                 </p>
 
                 <h3>使い方</h3>
-                <p>
-                    1. その日に思ったことや、その日に起こった出来事などをメッセージとして送ります。
-                </p>
-                <p>
-                    2. ボットがあなたに対して、褒め言葉や労いの言葉を返してくれます！
-                </p>
+                <div className="howtouse">
+                    <div className="number"><span>1</span></div>
+                    <p>その日に思ったことや、その日に起こった出来事などをメッセージとして送ります。</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>2</span></div>
+                    <p>ボットがあなたに対して、褒め言葉や労いの言葉を返してくれます！</p>
+                </div>
 
                 <h3>作成したきっかけ</h3>
                 <p>

@@ -16,15 +16,18 @@ export default class IBS extends React.Component {
                 </p>
 
                 <h3>使い方</h3>
-                <p>
-                    1. 入力欄に話のネタを1つずつ入力して追加。
-                </p>
-                <p>
-                    2. シャッフルボタンを押す！
-                </p>
-                <p>
-                    3. 何度か押すと、次々に別のネタが出てきます。
-                </p>
+                <div className="howtouse">
+                    <div className="number"><span>1</span></div>
+                    <p>入力欄に話のネタを1つずつ入力して追加。</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>2</span></div>
+                    <p>シャッフルボタンを押す！</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>3</span></div>
+                    <p>何度か押すと、次々に別のネタが出てきます。</p>
+                </div>
 
                 <h3>作成したきっかけ</h3>
                 <p>

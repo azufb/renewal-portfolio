@@ -19,18 +19,22 @@ export default class ToDoKanri extends React.Component {
                 </p>
 
                 <h3>使い方</h3>
-                <p>
-                    1. タスクを入力し、追加する。
-                </p>
-                <p>
-                    2. タスクが完了すると、DONEボタンを押す。
-                </p>
-                <p>
-                    3. 全てのタスクが完了すると、ALL DONE!ボタンを押す！
-                </p>
-                <p>
-                    4. あなたを労ってくれます。
-                </p>
+                <div className="howtouse">
+                    <div className="number"><span>1</span></div>
+                    <p>タスクを入力し、追加する。</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>2</span></div>
+                    <p>タスクが完了すると、DONEボタンを押す。</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>3</span></div>
+                    <p>全てのタスクが完了すると、ALL DONE!ボタンを押す！</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>4</span></div>
+                    <p>あなたを労ってくれます。</p>
+                </div>
 
                 <h3>作成したきっかけ</h3>
                 <p>

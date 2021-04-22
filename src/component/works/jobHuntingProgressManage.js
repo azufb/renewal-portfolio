@@ -23,15 +23,14 @@ export default class JHPM extends React.Component {
                 </p>
 
                 <h3>使い方</h3>
-                <p>
-                    1. エントリーした企業の名前、所在地、選考状況、サイトURLを入力。
-                </p>
-                <p>
-                    2. ADDボタンを押して追加！
-                </p>
-                <p>
-                    demo動画
-                </p>
+                <div className="howtouse">
+                    <div className="number"><span>1</span></div>
+                    <p>エントリーした企業の名前、所在地、選考状況、サイトURLを入力。</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>2</span></div>
+                    <p>ADDボタンを押して追加！</p>
+                </div>
 
                 <h3>作成したきっかけ</h3>
                 <p>

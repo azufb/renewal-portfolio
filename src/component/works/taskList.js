@@ -13,15 +13,18 @@ export default class TaskList extends React.Component {
                 </p>
 
                 <h3>使い方</h3>
-                <p>
-                    1. タスクを入力して、追加。
-                </p>
-                <p>
-                    2. 1つのタスクが完了すれば、各タスクの横にあるチェックボックスにチェックを入れる。
-                </p>
-                <p>
-                    3. 全て完了したら削除！
-                </p>
+                <div className="howtouse">
+                    <div className="number"><span>1</span></div>
+                    <p>タスクを入力し、追加する。</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>2</span></div>
+                    <p>1つのタスクが完了すれば、各タスクの横にあるチェックボックスにチェックを入れる。</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>3</span></div>
+                    <p>全て完了したら削除！</p>
+                </div>
 
                 <h3>作成したきっかけ</h3>
                 <p>

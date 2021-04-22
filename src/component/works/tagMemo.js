@@ -21,15 +21,18 @@ export default class TagMemo extends React.Component {
                 </p>
 
                 <h3>使い方</h3>
-                <p>
-                    1. メモを入力し、分類タグを選択。
-                </p>
-                <p>
-                    2. メモを追加。
-                </p>
-                <p>
-                    3. 削除したいときには、削除したいメモをドロップダウンから選んで、削除！
-                </p>
+                <div className="howtouse">
+                    <div className="number"><span>1</span></div>
+                    <p>メモを入力し、分類タグを選択。</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>2</span></div>
+                    <p>メモを追加。</p>
+                </div>
+                <div className="howtouse">
+                    <div className="number"><span>2</span></div>
+                    <p>削除したいときには、削除したいメモをドロップダウンから選んで、削除！</p>
+                </div>
 
                 <h3>作成したきっかけ</h3>
                 <p>
