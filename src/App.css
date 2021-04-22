@@ -87,7 +87,7 @@ a {
 .timeline-content {
   width: 75%;
   float: left;
-  border-left: 3px solid #ccc;
+  border-left: 3px solid rgb(212, 209, 209);
   padding-left: 30px;
 }
 
@@ -108,9 +108,35 @@ a {
   margin: 0 auto;
 }
 
-img {
-  width: 150px;
-  height: auto;
+h3 {
+  border-bottom: 2px solid #113A8C;
+}
+
+.intro {
+  display: flex;
+}
+
+.intro p {
+  width: 50%;
+}
+
+.category {
+  background-color: #ccc;
+  margin-bottom: 15px;
+}
+
+.lists .list {
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 0px;
+  padding: 5px 0;
+}
+
+.lists .list:nth-child(1) {
+  margin-top: 0px;
+}
+
+.comment {
+  margin-top: 0px;
 }
 
 /* お問い合わせリンク*/

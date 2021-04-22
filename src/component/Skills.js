@@ -8,42 +8,62 @@ export default class Skills extends React.Component {
         return (
             <div className="skills">
                 <h2>スキル・資格</h2>
-                <h3>スキル</h3>
+                <h3>プログラミングスキル</h3>
                 <p>
                     JavaScriptを中心に学習しています。<br />
                     個人開発においては、ReactやVueを使っています。
                 </p>
-                <h4>言語</h4>
-                <img src={JSIcon} alt='JavaScript_Icon'/>
-
-                <h4>ライブラリ・フレームワーク</h4>
-                <img src={ReactIcon} alt='React_Icon' />
-                <img src={VueIcon} alt='Vue_Icon' />
-
+                <h4 className="category">言語</h4>
+                <div className="lists">
+                    <p className="list">
+                        <i class="fas fa-medal"></i>JavaScript
+                    </p>
+                    <p className="comment">
+                        <i class="far fa-comment-dots"></i>サーバーサイドもフロントエンドも担える言語で、すごいと思い、勉強し始めた。
+                    </p>
+                </div>
+                
+                <h4 className="category">ライブラリ・フレームワーク</h4>
+                <div className="lists">
+                    <p className="list">
+                        <i class="fas fa-medal"></i>React.js
+                    </p>
+                    {/*<p className="comment">
+                        <i class="far fa-comment-dots"></i>
+                    </p>*/}
+                    <p className="list">
+                        <i class="fas fa-medal"></i>Vue.js
+                    </p>
+                    {/*<p className="comment">
+                        <i class="far fa-comment-dots"></i>
+                    </p>*/}
+                </div>
 
                 <h3>資格</h3>
-                <h4>IT関連</h4>
-                <ul>
-                    <li>
-                        ITパスポート試験(2020年06月)
-                    </li>
-                    <li>
-                        Excel VBAスタンダード(2020年02月)
-                    </li>
-                </ul>
-
-                <h4>その他</h4>
-                <ul>
-                    <li>
-                        TOEIC785点(2018年06月)
-                    </li>
-                    <li>
-                        日商ビジネス英語検定3級(2018年04月)
-                    </li>
-                    <li>
-                        日商簿記3級(2017年02月)
-                    </li>
-                </ul>
+                <p>
+                    これまで、いくつかの資格試験に挑戦してきました。<br />
+                    今後も、何か、取っていきたいなと思っています！
+                </p>
+                <div className="lists">
+                    <p className="list">
+                        <i class="fas fa-medal"></i>ITパスポート試験(2020年06月)
+                    </p>
+                    <p className="list">
+                        <i class="fas fa-medal"></i>Excel VBAスタンダード(2020年02月)
+                    </p>
+                    <p className="list">
+                        <i class="fas fa-medal"></i>TOEIC785点(2018年06月)
+                    </p>
+                    <p className="list">
+                        <i class="fas fa-medal"></i>日商ビジネス英語検定3級(2018年04月)
+                    </p>
+                    <p className="list">
+                        <i class="fas fa-medal"></i>日商簿記3級(2017年02月)
+                    </p>
+                    <p className="comment">
+                        <i class="far fa-comment-dots"></i>私が所属していた学部では、簿記基礎が必須科目で、定期考査の勉強も兼ねて、受験。
+                    </p>
+                </div>
             </div>
         );
     }
