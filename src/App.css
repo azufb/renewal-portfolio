@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #dee2e0;
+  background-color: #dcdcdc;
   color: #333333;
   font-family: 'Noto Sans JP', sans-serif;
 }
@@ -46,7 +46,7 @@ a {
 }
 
 .navi a.active {
-  text-decoration: 2px underline #113A8C;
+  text-decoration: 2px underline #133b8c;
 }
 
 .nav_contact {
@@ -75,7 +75,7 @@ a {
 
 .profile h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #113A8C;
+  color: #133b8c;
 }
 
 .twitterLink {
@@ -143,7 +143,7 @@ a {
   content: '';
   width: 12px;
   height: 12px;
-  background: #113A8C;
+  background: #133b8c;
   position: absolute;
   left: 106px;
   top: 24px;
@@ -158,11 +158,11 @@ a {
 
 .skills h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #113A8C;
+  color: #133b8c;
 }
 
 h3 {
-  border-bottom: 2px solid #113A8C;
+  border-bottom: 2px solid #133b8c;
 }
 
 .intro {
@@ -190,7 +190,7 @@ h3 {
 }
 
 .list i {
-  color: #113A8C;
+  color: #133b8c;
 }
 
 .comment {
@@ -205,7 +205,7 @@ h3 {
 
 .works h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #113A8C;
+  color: #133b8c;
 }
 
 .worksCategory {
@@ -261,7 +261,7 @@ h3 {
 
 .detailContents h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #113A8C;
+  color: #133b8c;
 }
 
 .howtouse {
@@ -269,7 +269,7 @@ h3 {
 }
 
 .number {
-  background-color: #20448E;
+  background-color: #23478e;
   width: 24px;
   height: 24px;
   border-radius: 10%;
@@ -295,7 +295,7 @@ h3 {
 }
 
 .appLink {
-  background-color: #20448E;
+  background-color: #23478e;
   text-align: center;
   width: 710px;
   margin: 0 auto;
@@ -308,6 +308,7 @@ h3 {
 
 .appLink a {
   color: #fff;
+  font-weight: bold;
 }
 
 .appLink:hover {
