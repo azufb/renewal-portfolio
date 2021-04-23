@@ -15,6 +15,7 @@ export default class Works extends React.Component {
             <div className="works">
                 <h2>Works</h2>
                 <h3 className="worksCategory">タスク管理</h3>
+                <div className="contentsBox">
                 <div className="cardsList">
                     <div className='cards'>
                         <div className='card'>
@@ -114,6 +115,7 @@ export default class Works extends React.Component {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         );
     }
