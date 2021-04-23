@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #dee2e0;
+  background-color: #dcdcdc;
   color: #333333;
   font-family: 'Noto Sans JP', sans-serif;
 }
@@ -36,8 +36,6 @@ a {
 }
 
 .navi {
-  display: flex;
-  justify-content: center;
   display: table-cell;
   text-align: right;
   font-family: 'Montserrat', sans-serif;
@@ -48,7 +46,7 @@ a {
 }
 
 .navi a.active {
-  text-decoration: 2px underline #113A8C;
+  text-decoration: 2px underline #133b8c;
 }
 
 .nav_contact {
@@ -77,7 +75,7 @@ a {
 
 .profile h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #113A8C;
+  color: #133b8c;
 }
 
 .twitterLink {
@@ -145,7 +143,7 @@ a {
   content: '';
   width: 12px;
   height: 12px;
-  background: #113A8C;
+  background: #133b8c;
   position: absolute;
   left: 106px;
   top: 24px;
@@ -160,11 +158,11 @@ a {
 
 .skills h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #113A8C;
+  color: #133b8c;
 }
 
 h3 {
-  border-bottom: 2px solid #113A8C;
+  border-bottom: 2px solid #133b8c;
 }
 
 .intro {
@@ -192,7 +190,7 @@ h3 {
 }
 
 .list i {
-  color: #113A8C;
+  color: #133b8c;
 }
 
 .comment {
@@ -207,7 +205,7 @@ h3 {
 
 .works h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #113A8C;
+  color: #133b8c;
 }
 
 .worksCategory {
@@ -263,7 +261,7 @@ h3 {
 
 .detailContents h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #113A8C;
+  color: #133b8c;
 }
 
 .howtouse {
@@ -271,7 +269,7 @@ h3 {
 }
 
 .number {
-  background-color: #20448E;
+  background-color: #23478e;
   width: 24px;
   height: 24px;
   border-radius: 10%;
@@ -297,7 +295,7 @@ h3 {
 }
 
 .appLink {
-  background-color: #20448E;
+  background-color: #23478e;
   text-align: center;
   width: 710px;
   margin: 0 auto;
@@ -310,6 +308,7 @@ h3 {
 
 .appLink a {
   color: #fff;
+  font-weight: bold;
 }
 
 .appLink:hover {
@@ -335,4 +334,199 @@ h3 {
 footer {
   text-align: center;
   margin-top: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .titles {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+  .titles p {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+  .navi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navi a {
+    font-size: 18px;
+  }
+
+  .navi a:nth-child(n+2) {
+    margin-left: 15px;
+  }
+
+  .top {
+    width: 100%;
+  }
+
+  th {
+    vertical-align: top;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .contentsBox {
+    padding: 0 10px;
+    margin-bottom: 50px;
+  }
+  
+  .timeline {
+    padding: 0px;
+  }
+  
+  .timeline_title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .timeline li {
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px dotted;
+  }
+  
+  .timeline .hiddenOne {
+    display: none;
+  }
+  
+  .timeline-date {
+    width: 110px;
+    float: left;
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: none;
+    padding-left: 0px;
+  }
+
+  .timeline-content p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .timeline-content:before {
+    content: none;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .works {
+    width: 100%;
+  }
+
+  .cards {
+    display: block;
+  }
+
+  .card {
+    width: auto;
+  }
+
+  .card:nth-child(n+2) {
+    margin-left: 0px;
+  }
+
+  .cardContents {
+    width: 100%;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .detailContents {
+    width: 100%;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .appLink {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .titles {
+    display: table;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+  .navi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .top {
+    width: 100%;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .works {
+    width: 100%;
+  }
+
+  .worksCategory {
+    margin-bottom: 0px;
+  }
+
+  .cards {
+    margin-top: 0px;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .card {
+    margin-top: 20px;
+    width: 49.7%;
+    height: auto;
+    background-color: #fff;
+  }
+  
+  .card:nth-child(n+2) {
+    margin-left: 0px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .detailContents {
+    width: 100%;
+  }
 }
