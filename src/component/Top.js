@@ -1,9 +1,11 @@
 import React from 'react';
+import topImg from './../pexels-jessica-lewis-583847.jpeg';
 
 export default class Top extends React.Component {
     render() {
         return (
             <div className="top">
+                <img src={topImg} alt="topimg" />
                 <h3>Greeting</h3>
                 <div className="contentsBox">
                     <p>

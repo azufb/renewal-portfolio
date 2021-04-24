@@ -1,4 +1,6 @@
 import React from 'react';
+import introImg1 from './../student-849820_1920.jpeg';
+import introImg2 from './../test-986935_1920.jpeg';
 
 export default class Skills extends React.Component {
     render() {
@@ -7,10 +9,14 @@ export default class Skills extends React.Component {
                 <h2>Skills</h2>
                 <h3>プログラミングスキル</h3>
                 <div className="contentsBox">
-                    <p>
-                        JavaScriptを中心に学習しています。<br />
-                        個人開発においては、ReactやVueを使っています。
-                    </p>
+                    <div className="programing">
+                        <p>
+                            JavaScriptを中心に学習しています。<br />
+                            個人開発においては、ReactやVueを使っています。
+                        </p>
+
+                        <img src={introImg1} alt="introimg" />
+                    </div>
                     <h4 className="category">言語</h4>
                     <div className="lists">
                         <p className="list">
@@ -40,10 +46,13 @@ export default class Skills extends React.Component {
 
                 <h3>資格</h3>
                 <div className="contentsBox">
-                    <p>
-                        これまで、いくつかの資格試験に挑戦してきました。<br />
-                        今後も、何か、取っていきたいなと思っています！
-                    </p>
+                    <div className="certificate">
+                        <p>
+                            これまで、いくつかの資格試験に挑戦してきました。<br />
+                            今後も、何か、取っていきたいなと思っています！
+                        </p>
+                        <img src={introImg2} alt="introimg" />
+                    </div>
                     <div className="lists">
                         <p className="list">
                             <i className="fas fa-medal"></i>ITパスポート試験(2020年06月)

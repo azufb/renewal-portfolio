@@ -67,6 +67,13 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
+.top img {
+  margin-top: 30px;
+  width: 990px;
+  height: auto;
+  filter: grayscale(70%);
+}
+
 /* 経歴年表 */
 .profile {
   width: 990px;
@@ -165,6 +172,36 @@ h3 {
   border-bottom: 3px solid #133b8c;
 }
 
+.programing {
+  display: flex;
+}
+
+.programing p {
+  width: 60%;
+}
+
+.programing img {
+  width: 40%;
+  height: auto;
+  text-align: right;
+  filter: grayscale(70%);
+}
+
+.certificate {
+  display: flex;
+}
+
+.certificate p {
+  width: 60%;
+}
+
+.certificate img {
+  width: 40%;
+  height: auto;
+  text-align: right;
+  filter: grayscale(70%);
+}
+
 .intro {
   display: flex;
 }
@@ -176,13 +213,11 @@ h3 {
 .category {
   background-color: #c1c4c4;
   margin-bottom: 15px;
-  padding: 10px 0;
 }
 
 .lists .list {
   border-bottom: 2px solid #c1c4c4;
   margin-bottom: 0px;
-  padding: 5px 0;
 }
 
 .lists .list:nth-child(1) {
