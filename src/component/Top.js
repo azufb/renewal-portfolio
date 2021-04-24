@@ -4,18 +4,6 @@ export default class Top extends React.Component {
     render() {
         return (
             <div className="top">
-                <h3 className='newsTitle'>NEWS</h3>
-                <div className="contentsBox">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <th>2021.04.30</th>
-                                <td>ポートフォリオサイト、リニューアルオープン！</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
                 <h3>Greeting</h3>
                 <div className="contentsBox">
                     <p>
