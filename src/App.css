@@ -59,10 +59,6 @@ a {
   margin: 0 auto;
 }
 
-.newsBox table {
-  padding: 15px 0;
-}
-
 .top h3 {
   font-family: 'Montserrat', sans-serif;
 }
@@ -368,10 +364,6 @@ footer {
 
   .top {
     width: 100%;
-  }
-
-  th {
-    vertical-align: top;
   }
 
   .profile {
