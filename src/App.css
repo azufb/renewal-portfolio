@@ -183,7 +183,6 @@ h3 {
 .programing img {
   width: 40%;
   height: auto;
-  text-align: right;
   filter: grayscale(70%);
 }
 
@@ -198,7 +197,6 @@ h3 {
 .certificate img {
   width: 40%;
   height: auto;
-  text-align: right;
   filter: grayscale(70%);
 }
 
@@ -336,6 +334,7 @@ h3 {
   width: 710px;
   margin: 0 auto;
   border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .appLink p {
@@ -377,8 +376,9 @@ footer {
   .titles {
     display: block;
     width: 100%;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding: 30px 0;
   }
 
   .titles p {
@@ -405,6 +405,12 @@ footer {
 
   .top {
     width: 100%;
+  }
+
+  .top img {
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
   }
 
   .profile {
@@ -463,6 +469,32 @@ footer {
     width: 100%;
   }
 
+  .programing {
+    display: block;
+  }
+  
+  .programing p {
+    width: 100%;
+  }
+  
+  .programing img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .certificate {
+    display: block;
+  }
+  
+  .certificate p {
+    width: 100%;
+  }
+  
+  .certificate img {
+    width: 100%;
+    height: auto;
+  }
+
   .works {
     width: 100%;
   }
@@ -505,8 +537,9 @@ footer {
   .titles {
     display: table;
     width: 100%;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding: 30px 0;
   }
 
   .navi {
@@ -517,6 +550,12 @@ footer {
 
   .top {
     width: 100%;
+  }
+
+  .top img {
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
   }
 
   .profile {
