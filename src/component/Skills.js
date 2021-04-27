@@ -17,7 +17,7 @@ export default class Skills extends React.Component {
 
                         <img src={introImg1} alt="introimg" />
                     </div>
-                    <h4 className="category">言語</h4>
+                    <p className="category">言語</p>
                     <div className="lists">
                         <p className="list">
                             <i className="fas fa-medal"></i>JavaScript
@@ -27,7 +27,7 @@ export default class Skills extends React.Component {
                         </p>
                     </div>
                 
-                    <h4 className="category">ライブラリ・フレームワーク</h4>
+                    <p className="category">ライブラリ・フレームワーク</p>
                     <div className="lists">
                         <p className="list">
                             <i className="fas fa-medal"></i>React.js
