@@ -225,6 +225,7 @@ h3 {
 .category {
   color: #ef4056;
   margin-bottom: 15px;
+  line-height: initial;
 }
 
 .lists {
@@ -399,6 +400,10 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+  .content {
+    letter-spacing: 0;
+  }
+
   .titles {
     display: block;
     width: 100%;
@@ -531,6 +536,7 @@ footer {
 
   .card {
     width: auto;
+    margin-top: 20px;
   }
 
   .card:nth-child(n+2) {
@@ -550,6 +556,20 @@ footer {
     width: 100%;
   }
 
+  .number {
+    background-color: unset;
+    width: unset;
+    height: unset;
+    border-radius: unset;
+  }
+
+  .number span {
+    color: #f58c9a;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+  }
+
   .video {
     width: 100%;
   }
@@ -560,18 +580,34 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .content {
+    letter-spacing: 0;
+  }
+
   .titles {
-    display: table;
+    display: block;
     width: 100%;
     margin-bottom: 30px;
     margin-top: 0px;
     padding: 30px 0;
   }
 
+  .titles p {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
   .navi {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  .navi a:nth-child(n+2) {
+    margin-left: 15px;
   }
 
   .top {
@@ -604,13 +640,19 @@ footer {
     margin-top: 0px;
     display: flex;
     flex-flow: wrap;
+    margin-left: 10px;
   }
 
   .card {
     margin-top: 20px;
-    width: 49.7%;
+    width: 48.4%;
     height: auto;
     background-color: #fff;
+
+  }
+
+  .card:nth-child(n+1) {
+    margin-right: 10px;
   }
   
   .card:nth-child(n+2) {
