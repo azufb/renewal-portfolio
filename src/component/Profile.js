@@ -4,7 +4,7 @@ export default class About extends React.Component {
     render() {
         return (
             <div className="profile">
-                <h2>Profile</h2>
+                <h2 className="pageTitle">Profile</h2>
                 <h3>名前</h3>
                 <div className="contentsBox">
                     <p>Azusa</p>
@@ -27,7 +27,7 @@ export default class About extends React.Component {
                 </div>
 
                 <h3>趣味</h3>
-                <div className="contentsBox">
+                <div className="contentsBox hobby">
                     <p>
                         最近は、読書をよくしています。<br />
                         自己啓発系統も読みますし、経営論のようなビジネスジャンルも読みます。

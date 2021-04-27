@@ -5,7 +5,7 @@ export default class Homerun extends React.Component {
     render() {
         return (
             <div className="detailContents">
-                <h2>ほめるん</h2>
+                <h2 className="detailTitle">ほめるん</h2>
                 <div className="contentsBox">
                     <p>
                         毎日、皆さん、頑張って生きています。その自分を褒めてみませんか？

@@ -5,7 +5,7 @@ export default class JHPM extends React.Component {
     render() {
         return (
             <div className="detailContents">
-                <h2>JobHuntingProgressManage</h2>
+                <h2 className="detailTitle">JobHuntingProgressManage</h2>
                 <div className="contentsBox">
                     <p>
                         就職活動・転職活動では、色々な会社にエントリーすると思います。人それぞれですが、100社近くエントリーする人もいると思います。複数の媒体を通してエントリーする人もいると思います。

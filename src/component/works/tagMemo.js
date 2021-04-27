@@ -5,7 +5,7 @@ export default class TagMemo extends React.Component {
     render() {
         return (
             <div className="detailContents">
-                <h2>タグメモ！</h2>
+                <h2 className="detailTitle">タグメモ！</h2>
                 <div className="contentsBox">
                     <p>
                         その場でささっとメモ！...でも後で見返したとき、「あれ...これ何について書いたメモなのか、わからん！仕事関連なのだろうか...？それともプライベートだろうか...？」と悩むことはありませんか？

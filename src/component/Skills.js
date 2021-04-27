@@ -6,7 +6,7 @@ export default class Skills extends React.Component {
     render() {
         return (
             <div className="skills">
-                <h2>Skills</h2>
+                <h2 className="pageTitle">Skills</h2>
                 <h3>プログラミングスキル</h3>
                 <div className="contentsBox">
                     <div className="programing">
@@ -23,7 +23,7 @@ export default class Skills extends React.Component {
                             <i className="fas fa-medal"></i>JavaScript
                         </p>
                         <p className="comment">
-                            <i className="far fa-comment-dots"></i>サーバーサイドもフロントエンドも担える言語で、すごいと思い、勉強し始めた。
+                            <i className="far fa-comment-dots"></i>バックエンドもフロントエンドも担える言語で、すごいと思い、勉強し始めた。
                         </p>
                     </div>
                 
