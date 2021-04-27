@@ -5,7 +5,7 @@ export default class TaskList extends React.Component {
     render() {
         return (
             <div className="detailContents">
-                <h2>タスクリスト</h2>
+                <h2 className="detailTitle">タスクリスト</h2>
                 <div className="contentsBox">
                     <p>
                         単純な、タスク管理アプリケーションです！

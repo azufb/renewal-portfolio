@@ -5,7 +5,7 @@ export default class IBS extends React.Component {
     render() {
         return (
             <div className="detailContents">
-                <h2>アイスブレイクシャッフル</h2>
+                <h2 className="detailTitle">アイスブレイクシャッフル</h2>
                 <div className="contentsBox">
                     <p>
                         話す話題に困ったことってありませんか？そんなときは、「アイスブレイクシャッフル」に頼ってみませんか？

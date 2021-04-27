@@ -7,7 +7,7 @@ export default class App extends React.Component {
     return (
       <div className='contents'>
         <Navi />
-        <footer>&copy; All Rights Reserved Azusa.</footer>
+        <footer>&copy;2021 Azusa</footer>
       </div>
     )
   }

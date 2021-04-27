@@ -5,7 +5,7 @@ export default class ToDoKanri extends React.Component {
     render() {
         return (
             <div className="detailContents">
-                <h2>ToDo管理</h2>
+                <h2 className="detailTitle">ToDo管理</h2>
                 <div className="contentsBox">
                     <p>
                         このアプリは、タスク管理アプリです。

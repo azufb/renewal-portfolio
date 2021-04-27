@@ -5,7 +5,7 @@ export default class Negapuchi extends React.Component {
     render() {
         return (
             <div className="detailContents">
-                <h2>ネガプチッ！</h2>
+                <h2 className="detailTitle">ネガプチッ！</h2>
                 <div className="contentsBox">
                     <p>
                         冷たく言い放たれて受け止めきれない...でも、仕事の話だからスルーすることができない...！<br />
