@@ -82,7 +82,7 @@ a {
   margin-top: 30px;
   width: 990px;
   height: auto;
-  filter: grayscale(70%);
+  filter: grayscale(0%);
 }
 
 .top p {
@@ -198,40 +198,8 @@ h3 {
   line-height: 2;
 }
 
-.programing {
-  display: flex;
-}
-
-.programing p {
-  width: 60%;
-}
-
-.programing img {
-  width: 40%;
-  height: auto;
-  filter: grayscale(70%);
-}
-
-.certificate {
-  display: flex;
-}
-
-.certificate p {
-  width: 60%;
-}
-
-.certificate img {
-  width: 40%;
-  height: auto;
-  filter: grayscale(70%);
-}
-
-.intro {
-  display: flex;
-}
-
-.intro p {
-  width: 50%;
+.skill {
+  margin-bottom: 0px !important;
 }
 
 .category {
@@ -430,7 +398,7 @@ footer {
   .titles {
     display: block;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 0px;
     padding: 30px 0;
   }
@@ -441,6 +409,10 @@ footer {
     justify-content: center;
     margin-bottom: 10px;
     margin-top: 0px;
+  }
+
+  .titles p a {
+    text-align: center;
   }
 
   .navi {
@@ -465,6 +437,10 @@ footer {
     margin-top: 0px;
     width: 100%;
     height: auto;
+  }
+
+  .pageTitle {
+    margin-top: 0px;
   }
 
   .profile {
@@ -497,10 +473,12 @@ footer {
   }
 
   .timeline-date {
-    width: 110px;
+    width: 150px;
     float: left;
     margin-top: 0px;
     font-size: 18px;
+    text-align: initial;
+    padding-right: 0px;
   }
 
   .timeline-content {
@@ -645,6 +623,51 @@ footer {
 
   .profile {
     width: 100%;
+  }
+
+  .timeline {
+    padding: 0px;
+  }
+
+  .timeline_title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .timeline li {
+    margin-top: 20px;
+    display: flex;
+    border-bottom: 1px dotted;
+  }
+
+  .timeline .hiddenOne {
+    display: none;
+  }
+
+  .timeline-date {
+    width: 150px;
+    float: left;
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: initial;
+    padding-right: 0px;
+  }
+
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: none;
+    padding-left: 0px;
+  }
+
+  .timeline-content p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .timeline-content:before {
+    content: none;
   }
 
   .skills {

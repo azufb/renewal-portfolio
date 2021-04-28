@@ -1,6 +1,4 @@
 import React from "react";
-import introImg1 from "./../student-849820_1920.jpeg";
-import introImg2 from "./../test-986935_1920.jpeg";
 
 export default class Skills extends React.Component {
   render() {
@@ -17,8 +15,6 @@ export default class Skills extends React.Component {
               <br />
               まだまだ学習途中ですが、少しずつ前進しています！
             </p>
-
-            <img src={introImg1} alt="introimg" />
           </div>
         </div>
         <h4 className="category">言語</h4>
@@ -60,7 +56,6 @@ export default class Skills extends React.Component {
               <br />
               今後も、何か、取っていきたいなと思っています！
             </p>
-            <img src={introImg2} alt="introimg" />
           </div>
           <div className="lists">
             <p className="list">

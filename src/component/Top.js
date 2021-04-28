@@ -1,5 +1,5 @@
 import React from "react";
-import topImg from "./../pexels-jessica-lewis-583847.jpeg";
+import topImg from "./../top.png";
 
 export default class Top extends React.Component {
   render() {
