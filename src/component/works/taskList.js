@@ -42,7 +42,7 @@ export default class TaskList extends React.Component {
                 <h3>作成したきっかけ</h3>
                 <div className="contentsBox">
                     <p>
-                        JavaScript、Reactを勉強し始めたときに作ってみた。
+                        JavaScriptを勉強し始めたときに作ってみた。
                     </p>
                 </div>
 
