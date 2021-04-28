@@ -365,6 +365,15 @@ h3 {
   transform: translateY(4px);
 }
 
+.homeusa {
+  display: flex;
+}
+
+.homeusaqr {
+  width: 25%;
+  height: auto;
+}
+
 /* お問い合わせリンク*/
 .contact {
   width: 990px;
@@ -578,6 +587,18 @@ footer {
   .appLink {
     width: 100%;
   }
+
+  .homeusa {
+    display: block;
+  }
+
+  .homeusaqr {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -713,5 +734,17 @@ footer {
 
   .detailContents {
     width: 100%;
+  }
+
+  .homeusa {
+    display: block;
+  }
+
+  .homeusaqr {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
   }
 }
