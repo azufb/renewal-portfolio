@@ -292,6 +292,20 @@ h3 {
   color: #878989;
 }
 
+.worksImgs {
+  position: relative;
+}
+
+.worksImgs p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #ffffff;
+  background-color: #f58c9a;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
 /* 成果物詳細ページ */
 .detailContents {
   width: 990px;
