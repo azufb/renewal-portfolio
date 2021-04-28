@@ -3,10 +3,19 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: #2e3b70;
-  color: #d5d8e2;
+  color: #ffffff;
+  /*color: #d5d8e2;*/
   font-weight: 500;
   letter-spacing: 0.15em;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.contentsBox {
+  margin-bottom: 50px;
+}
+
+.contentsBox p {
+  padding-left: 10px;
 }
 
 /* ナビゲーション */
@@ -21,7 +30,7 @@
 }
 
 a {
-  color: #ffffff;
+  color: #d5d8e2;
   text-decoration: none;
 }
 
@@ -29,7 +38,7 @@ a {
   display: table-cell;
   text-align: left;
   font-size: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -44,10 +53,10 @@ a {
 .navi {
   display: table-cell;
   text-align: right;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.navi a:nth-child(n+2) {
+.navi a:nth-child(n + 2) {
   margin-left: 30px;
 }
 
@@ -66,7 +75,7 @@ a {
 }
 
 .top h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .top img {
@@ -77,7 +86,7 @@ a {
 }
 
 .top p {
-  line-height: 2.0;
+  line-height: 2;
 }
 
 /* 経歴年表 */
@@ -88,7 +97,7 @@ a {
 
 .pageTitle {
   margin-top: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ef4056;
 }
 
@@ -100,12 +109,8 @@ a {
   padding-left: 10px;
 }
 
-.hobby p{
-  line-height: 2.0;
-}
-
-.contentsBox {
-  margin-bottom: 50px;
+.hobby p {
+  line-height: 2;
 }
 
 .timeline {
@@ -145,31 +150,38 @@ a {
 }
 
 .timeline-date {
-  width: 110px;
+  width: 105px;
   float: left;
   margin-top: 20px;
+  padding-right: 15px;
+  text-align: right;
 }
 
 .timeline-content {
-  width: 75%;
+  width: 80%;
   float: left;
   border-left: 3px solid #d1d3df;
   padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.timeline-content p {
+  padding-left: 0px;
 }
 
 .timeline-content:before {
-  content: '';
+  content: "";
   width: 16px;
   height: 16px;
   background: #ef4056;
   position: absolute;
-  left: 104px;
+  left: 124px;
   top: 24px;
   border-radius: 100%;
 }
 
 .timeline-content p {
-  line-height: 2.0;
+  line-height: 2;
 }
 
 /* スキルのアイコン画像 */
@@ -183,7 +195,7 @@ h3 {
 }
 
 .skills .contentsBox p {
-  line-height: 2.0;
+  line-height: 2;
 }
 
 .programing {
@@ -246,6 +258,11 @@ h3 {
   padding-right: 5px;
 }
 
+.lists p {
+  padding-left: 0px;
+  margin-left: 10px;
+}
+
 .comment {
   margin-top: 0px;
 }
@@ -279,10 +296,11 @@ h3 {
   width: 323px;
   height: auto;
   background-color: #f8f8f8;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.card:nth-child(n+2) {
+.card:nth-child(n + 2) {
   margin-left: 7.5px;
 }
 
@@ -314,16 +332,17 @@ h3 {
 
 .detailTitle {
   margin-top: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ef4056;
 }
 
 .detailContents .contentsBox p {
-  line-height: 2.0;
+  line-height: 2;
 }
 
 .howtouse {
   display: flex;
+  padding-left: 10px;
 }
 
 .number {
@@ -360,7 +379,8 @@ h3 {
   width: 710px;
   margin: 0 auto;
   border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .appLink p {
@@ -388,7 +408,9 @@ h3 {
   background-color: #ccc;
   padding: 10px;
   /*box-shadow: 0 4px 4px rgba(0,0,0,0.3);*/
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px;
 }
 
 /* フッター */
@@ -430,7 +452,7 @@ footer {
     font-size: 18px;
   }
 
-  .navi a:nth-child(n+2) {
+  .navi a:nth-child(n + 2) {
     margin-left: 15px;
   }
 
@@ -452,34 +474,34 @@ footer {
     padding: 0 10px;
     margin-bottom: 50px;
   }
-  
+
   .timeline {
     padding: 0px;
   }
-  
+
   .timeline_title {
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 18px;
   }
-  
+
   .timeline li {
     margin-top: 20px;
     display: flex;
     border-bottom: 1px dotted;
   }
-  
+
   .timeline .hiddenOne {
     display: none;
   }
-  
+
   .timeline-date {
     width: 110px;
     float: left;
     margin-top: 0px;
     font-size: 18px;
   }
-  
+
   .timeline-content {
     width: 75%;
     float: left;
@@ -491,7 +513,7 @@ footer {
     margin-top: 0px;
     margin-bottom: 5px;
   }
-  
+
   .timeline-content:before {
     content: none;
   }
@@ -503,24 +525,24 @@ footer {
   .programing {
     display: block;
   }
-  
+
   .programing p {
     width: 100%;
   }
-  
+
   .programing img {
     width: 100%;
     height: auto;
   }
-  
+
   .certificate {
     display: block;
   }
-  
+
   .certificate p {
     width: 100%;
   }
-  
+
   .certificate img {
     width: 100%;
     height: auto;
@@ -539,7 +561,7 @@ footer {
     margin-top: 20px;
   }
 
-  .card:nth-child(n+2) {
+  .card:nth-child(n + 2) {
     margin-left: 0px;
   }
 
@@ -606,7 +628,7 @@ footer {
     justify-content: center;
   }
 
-  .navi a:nth-child(n+2) {
+  .navi a:nth-child(n + 2) {
     margin-left: 15px;
   }
 
@@ -648,17 +670,16 @@ footer {
     width: 48.4%;
     height: auto;
     background-color: #fff;
-
   }
 
-  .card:nth-child(n+1) {
+  .card:nth-child(n + 1) {
     margin-right: 10px;
   }
-  
-  .card:nth-child(n+2) {
+
+  .card:nth-child(n + 2) {
     margin-left: 0px;
   }
-  
+
   .card img {
     width: 100%;
     height: auto;
