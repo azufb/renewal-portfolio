@@ -1,5 +1,5 @@
 import React from "react";
-import tasklistVideo from "./worksPhotos/tasklist.mp4";
+import tasklistVideo from "./WorksPhotos/tasklist.mp4";
 
 export default class TaskList extends React.Component {
   render() {

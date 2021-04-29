@@ -1,5 +1,5 @@
 import React from "react";
-import tagmemoVideo from "./worksPhotos/tagmemo.mp4";
+import tagmemoVideo from "./WorksPhotos/tagmemo.mp4";
 
 export default class TagMemo extends React.Component {
   render() {
