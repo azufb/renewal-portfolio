@@ -79,10 +79,15 @@ a {
 }
 
 .top img {
-  margin-top: 30px;
+  margin-top: 45px;
+  margin-bottom: 20px;
   width: 990px;
   height: auto;
   filter: grayscale(0%);
+}
+
+.top h3 {
+  margin-top: 15px;
 }
 
 .top p {
@@ -215,6 +220,7 @@ h3 {
 .lists .list {
   border-bottom: 2px solid #c1c4c4;
   margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 .lists .list:nth-child(1) {
@@ -353,6 +359,11 @@ h3 {
 
 .video {
   width: 710px;
+  padding-top: 30px;
+}
+
+.videoBox p {
+  margin-top: 0px;
 }
 
 .appLink {
@@ -362,6 +373,7 @@ h3 {
   margin: 0 auto;
   border-radius: 10px;
   border-bottom: solid 4px #627295;
+  margin-top: 30px;
 }
 
 .appLink p {
@@ -596,10 +608,16 @@ footer {
 
   .video {
     width: 100%;
+    padding-top: 30px;
+  }
+
+  .video p {
+    padding-left: 0px;
   }
 
   .appLink {
     width: 100%;
+    margin-top: 30px;
   }
 
   .homeusa {
@@ -612,6 +630,10 @@ footer {
     margin: 0 auto;
     display: block;
     margin: 0 auto;
+  }
+
+  .jhpmTitle {
+    font-size: 22px;
   }
 }
 
