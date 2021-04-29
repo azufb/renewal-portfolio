@@ -48,6 +48,17 @@ export default class About extends React.Component {
           </p>
         </div>
 
+        <h3>実は...</h3>
+        <div className="contentsBox">
+          <p>
+            私は、軽度のASD(自閉症スペクトラム)です。
+            <br />
+            大学4年生の終わり頃に発覚したので、これまでの学生生活は、普通の人と同じように、過ごしてきました。
+            <br />
+            同時進行で、複数の作業に取り組むことなど、いくつか対応が難しいこともありますが、今のところ、仕事に支障はなく、進めることができています！
+          </p>
+        </div>
+
         <h3>経歴</h3>
         <div className="contentsBox">
           <ul className="timeline">
@@ -146,8 +157,10 @@ export default class About extends React.Component {
               <div className="timeline-content">
                 <h3 className="timeline_title">Excel VBAとの出会い...</h3>
                 <p>
-                  Excel
-                  VBAの授業を履修し、自分が書いたコードの通りにExcelが動いたことに感激。
+                  就職活動中に、社会人の方から、Excel
+                  VBAの勉強をすることを勧められ、Excel VBAの授業を履修してみた！
+                  <br />
+                  自分が書いたコードの通りにExcelが動いたことに感激。
                   <br />
                   この授業がきっかけとなり、エンジニアの仕事に興味を持つ。
                 </p>
@@ -174,7 +187,7 @@ export default class About extends React.Component {
                 <p>
                   エンジニアを目指して、アルバイトを開始。
                   <br />
-                  主に、CMSを使って、サイト保守を行っている。
+                  CMSを使って、サイト保守を行うなどしている。
                 </p>
               </div>
             </li>
