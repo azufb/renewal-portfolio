@@ -12,13 +12,13 @@ import Profile from "./Profile";
 import Skills from "./Skills";
 import Works from "./Works";
 import Contact from "./Contact";
-import TaskList from "./works/taskList";
-import ToDoKanri from "./works/todokanri";
-import TagMemo from "./works/tagMemo";
-import IBS from "./works/randomIceBreak";
-import Homerun from "./works/homerun";
-import Negapuchi from "./works/negapuchi";
-import JHPM from "./works/jobHuntingProgressManage";
+import TaskList from "./Works/taskList";
+import ToDoKanri from "./Works/todokanri";
+import TagMemo from "./Works/tagMemo";
+import IBS from "./Works/randomIceBreak";
+import Homerun from "./Works/homerun";
+import Negapuchi from "./Works/negapuchi";
+import JHPM from "./Works/jobHuntingProgressManage";
 
 export default class Navi extends React.Component {
   render() {

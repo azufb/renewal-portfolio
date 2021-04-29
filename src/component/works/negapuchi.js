@@ -1,5 +1,5 @@
 import React from "react";
-import negapuchiVideo from "./worksPhotos/negapuchiVideo.mp4";
+import negapuchiVideo from "./WorksPhotos/negapuchiVideo.mp4";
 
 export default class Negapuchi extends React.Component {
   render() {

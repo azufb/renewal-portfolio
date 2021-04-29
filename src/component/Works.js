@@ -1,11 +1,11 @@
 import React from "react";
-import taskList from "./works/worksPhotos/taskList.png";
-import ToDoKanri from "./works/worksPhotos/ToDoKanri.png";
-import tagMemo from "./works/worksPhotos/tagMemo.png";
-import iceBreakShuffle from "./works/worksPhotos/iceBreakShuffle.png";
-import homerun from "./works/worksPhotos/homerun.png";
-import negapuchi from "./works/worksPhotos/negaPuchi.png";
-import jhpm from "./works/worksPhotos/JobHuntingProgressManage.png";
+import taskList from "./Works/WorksPhotos/taskList.png";
+import ToDoKanri from "./Works/WorksPhotos/ToDoKanri.png";
+import tagMemo from "./Works/WorksPhotos/tagMemo.png";
+import iceBreakShuffle from "./Works/WorksPhotos/iceBreakShuffle.png";
+import homerun from "./Works/WorksPhotos/homerun.png";
+import negapuchi from "./Works/WorksPhotos/negaPuchi.png";
+import jhpm from "./Works/WorksPhotos/JobHuntingProgressManage.png";
 import { NavLink } from "react-router-dom";
 
 export default class Works extends React.Component {

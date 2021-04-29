@@ -1,5 +1,5 @@
 import React from "react";
-import JHPMVideo from "./worksPhotos/JHPMVideo.mp4";
+import JHPMVideo from "./WorksPhotos/JHPMVideo.mp4";
 
 export default class JHPM extends React.Component {
   render() {

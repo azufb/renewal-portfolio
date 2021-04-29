@@ -1,5 +1,5 @@
 import React from "react";
-import homerunVideo from "./worksPhotos/homerunVideo.mp4";
+import homerunVideo from "./WorksPhotos/homerunVideo.mp4";
 import homeusaQR from "./../../homeusa_qr.png";
 
 export default class Homerun extends React.Component {

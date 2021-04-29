@@ -1,5 +1,5 @@
 import React from "react";
-import icebreakshuffleVideo from "./worksPhotos/icebreakshuffleVideo.mp4";
+import icebreakshuffleVideo from "./WorksPhotos/icebreakshuffleVideo.mp4";
 
 export default class IBS extends React.Component {
   render() {
