@@ -396,12 +396,19 @@ h3 {
 }
 
 .homeusa {
-  display: flex;
+  display: block;
 }
 
 .homeusaqr {
-  width: 25%;
+  display: block;
+  width: 20%;
   height: auto;
+  margin: 0 auto;
+}
+
+.homeusa figcaption {
+  text-align: center;
+  padding-top: 10px;
 }
 
 /* お問い合わせリンク*/
