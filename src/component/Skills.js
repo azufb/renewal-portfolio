@@ -34,7 +34,7 @@ export default class Skills extends React.Component {
         <div className="contentsBox">
           <div className="lists">
             <p className="list">
-              <i className="fas fa-medal"></i>React.js
+              <i className="fas fa-medal"></i>React
             </p>
             {/*<p className="comment">
                             <i className="far fa-comment-dots"></i>
