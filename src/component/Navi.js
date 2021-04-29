@@ -29,7 +29,7 @@ export default class Navi extends React.Component {
           <div className="navBar">
             <div className="titles">
               <p>
-                <Link to="/">Azu's Portfolio</Link>
+                <Link to="/">Creative Room-A</Link>
               </p>
               <div className="navi">
                 <NavLink to="/Profile">Profile</NavLink>
