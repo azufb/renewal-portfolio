@@ -37,6 +37,9 @@ export default class About extends React.Component {
               Qiitaはこちら！<i className="fas fa-external-link-alt"></i>
             </a>
           </p>
+          <p>
+            Qiitaでは、学んだこと、自分が便利だと思った技術について投稿しています！
+          </p>
         </div>
 
         <h3>趣味</h3>
