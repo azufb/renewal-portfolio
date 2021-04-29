@@ -73,7 +73,7 @@ export default class Homerun extends React.Component {
 
         <h3>使用技術</h3>
         <div className="contentsBox">
-          <p>React.js・React Simple Chatbot</p>
+          <p>React・React Simple Chatbot</p>
           <p>
             <a
               href="https://github.com/azufb/ReactChatBot"
