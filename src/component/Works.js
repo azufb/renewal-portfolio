@@ -25,7 +25,7 @@ export default class Works extends React.Component {
           <div className="cardsList">
             <div className="cards">
               <div className="card">
-                <NavLink to="/todokanri">
+                <NavLink to="/Works/todokanri">
                   <div className="cardContents">
                     <div className="worksImgs">
                       <img src={ToDoKanri} alt="todo管理" />
@@ -40,7 +40,7 @@ export default class Works extends React.Component {
                 </NavLink>
               </div>
               <div className="card">
-                <NavLink to="/taskList">
+                <NavLink to="/Works/taskList">
                   <div className="cardContents">
                     <div className="worksImgs">
                       <img src={taskList} alt="todo管理" />
@@ -63,7 +63,7 @@ export default class Works extends React.Component {
           <div className="cardsList">
             <div className="cards">
               <div className="card">
-                <NavLink to="/tagMemo">
+                <NavLink to="/Works/tagMemo">
                   <div className="cardContents">
                     <div className="worksImgs">
                       <img src={tagMemo} alt="タグメモ！" />
@@ -87,7 +87,7 @@ export default class Works extends React.Component {
           <div className="cardsList">
             <div className="cards">
               <div className="card">
-                <NavLink to="/negapuchi">
+                <NavLink to="/Works/negapuchi">
                   <div className="cardContents">
                     <div className="worksImgs">
                       <img src={negapuchi} alt="ネガプチッ！" />
@@ -103,7 +103,7 @@ export default class Works extends React.Component {
                 </NavLink>
               </div>
               <div className="card">
-                <NavLink to="/iceBreakShuffle">
+                <NavLink to="/Works/iceBreakShuffle">
                   <div className="cardContents">
                     <div className="worksImgs">
                       <img
@@ -122,7 +122,7 @@ export default class Works extends React.Component {
                 </NavLink>
               </div>
               <div className="card">
-                <NavLink to="/homerun">
+                <NavLink to="/Works/homerun">
                   <div className="cardContents">
                     <div className="worksImgs">
                       <img src={homerun} alt="ほめるん" />
@@ -146,7 +146,7 @@ export default class Works extends React.Component {
           <div className="cardsList">
             <div className="cards">
               <div className="card">
-                <NavLink to="/jobHuntingProgressManage">
+                <NavLink to="/Works/jobHuntingProgressManage">
                   <div className="cardContents">
                     <div className="worksImgs">
                       <img src={jhpm} alt="jhpm" />
