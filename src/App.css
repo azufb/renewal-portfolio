@@ -620,6 +620,10 @@ footer {
     margin-top: 30px;
   }
 
+  .appLink p {
+    line-height: 0px !important;
+  }
+
   .homeusa {
     display: block;
   }
