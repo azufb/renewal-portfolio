@@ -1,4 +1,5 @@
 import React from "react";
+import kyouNoYarukoto from "./Works/WorksPhotos/kyouNoYarukoto.png";
 import taskList from "./Works/WorksPhotos/taskList.png";
 import ToDoKanri from "./Works/WorksPhotos/ToDoKanri.png";
 import tagMemo from "./Works/WorksPhotos/tagMemo.png";
@@ -13,16 +14,44 @@ const Works = () => {
     <div className="mainContent">
       <h2 className="pageTitle">Works</h2>
       <div className="contentsBox">
+        <p>これまで、私が開発したWebアプリケーションをご紹介致します。</p>
+        <ul className="worksDescription">
+          <li>
+            自分の
+            <span className="worksFor">プログラミング学習</span>
+            のために開発に挑戦してみたもの。
+          </li>
+          <li>
+            課題・問題に感じたことに対しての、
+            <span className="worksFor">1つの解決策</span>
+            として開発したもの。
+          </li>
+        </ul>
+        <p>...などなど、色々な個人開発に取り組んできました！</p>
         <p>
-          プログラミングを勉強している過程で開発したWebアプリケーションをご紹介致します。
-          <br />
-          技術の学習のために開発に挑戦してみたもの、自分が課題・問題に感じたことに対して、1つの解決策として開発したものなど、様々なアプリケーションを開発しています。
+          各アプリケーションの詳細ページでは、デモ動画をご覧頂けます。アプリケーションへのリンクもありますので、ぜひ、使ってみてください！
         </p>
       </div>
       <h3 className="worksCategory">タスク管理</h3>
       <div className="contentsBox">
         <div className="cardsList">
           <div className="cards">
+            <div className="card">
+              <NavLink to="/Works/kyouNoYarukoto">
+                <div className="cardContents">
+                  <div className="worksImgs">
+                    <img src={kyouNoYarukoto} alt="今日のやること" />
+                    <p>詳しくはこちら→</p>
+                  </div>
+                  <div className="cardTitle">
+                    <p className="appTitle">
+                      <span className="newApp">NEW</span>今日のやること！
+                    </p>
+                    <p className="finishedDate">2021年5月7日</p>
+                  </div>
+                </div>
+              </NavLink>
+            </div>
             <div className="card">
               <NavLink to="/Works/todokanri">
                 <div className="cardContents">
@@ -78,7 +107,7 @@ const Works = () => {
         </div>
       </div>
 
-      <h3 className="worksCategory">エンタメ</h3>
+      <h3 className="worksCategory">エンターテインメント</h3>
       <div className="contentsBox">
         <div className="cardsList">
           <div className="cards">

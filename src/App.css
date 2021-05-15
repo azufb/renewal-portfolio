@@ -101,7 +101,6 @@ a {
 }
 
 /* 経歴年表 */
-
 .pageTitle {
   margin-top: 50px;
   font-family: "Montserrat", sans-serif;
@@ -241,6 +240,18 @@ a {
   margin-top: 0px;
 }
 
+.worksDescription li {
+  line-height: 2;
+}
+
+.worksFor {
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #ef4056;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
 .cardsList {
   margin-bottom: 50px;
 }
@@ -305,6 +316,14 @@ a {
   margin-bottom: 5px;
 }
 
+.newApp {
+  background-color: #ef4056;
+  color: #ffffff;
+  padding: 3px 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
 /* 成果物詳細ページ */
 .detailTitle {
   margin-top: 50px;
@@ -312,8 +331,8 @@ a {
   color: #ef4056;
 }
 
-.mainContent .contentsBox p {
-  line-height: 2;
+.textAlert {
+  color: red;
 }
 
 .howtouse {
