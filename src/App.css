@@ -262,12 +262,16 @@ a {
   text-align: center;
   color: #333333;
   padding-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .cardContents .cardTitle .finishedDate {
   text-align: center;
   color: #878989 !important;
   padding-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .worksImgs {
