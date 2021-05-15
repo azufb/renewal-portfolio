@@ -1,6 +1,19 @@
 import React from "react";
+import { MuiThemeProvider, Tooltip, createMuiTheme } from "@material-ui/core";
 
 const About = () => {
+  const styledTooltip = createMuiTheme({
+    overrides: {
+      MuiTooltip: {
+        tooltip: {
+          fontSize: "16px",
+          padding: "15px",
+          lineHeight: 2,
+        },
+      },
+    },
+  });
+
   return (
     <div className="mainContent">
       <h2 className="pageTitle">Profile</h2>
@@ -50,7 +63,7 @@ const About = () => {
         </p>
       </div>
 
-      <h3>実は...</h3>
+      {/*<h3>実は...</h3>
       <div className="contentsBox">
         <p>
           私は、軽度のASD(自閉症スペクトラム)です。
@@ -59,7 +72,7 @@ const About = () => {
           <br />
           同時進行で、複数の作業に取り組むことなど、いくつか対応が難しいこともありますが、今のところ、仕事に支障はなく、進めることができています！
         </p>
-      </div>
+      </div>*/}
 
       <h3>経歴</h3>
       <div className="contentsBox">
@@ -68,7 +81,15 @@ const About = () => {
             <p className="timeline-date">1998年2月</p>
             <div className="timeline-content">
               <h3 className="timeline_title">誕生</h3>
-              <p>兵庫県に生まれる。</p>
+              <MuiThemeProvider theme={styledTooltip}>
+                <Tooltip
+                  title="子供のころ、厚紙を使って、オリジナルゲームの見た目を作って遊んだりしていた。ただ、機能までは作っていなかった...。当時の将来の夢は、イルカだったらしい！？"
+                  placement="left-end"
+                  arrow
+                >
+                  <p>兵庫県に生まれる。</p>
+                </Tooltip>
+              </MuiThemeProvider>
             </div>
           </li>
           <li className="hiddenOne">
@@ -100,13 +121,21 @@ const About = () => {
             <p className="timeline-date">2014年10月</p>
             <div className="timeline-content">
               <h3 className="timeline_title">海外研修(約1週間)</h3>
-              <p>
-                修学旅行がない高校だったが、海外研修はあった。
-                <br />
-                アメリカ・シアトルを選択し、初めて海外へ渡航！
-                <br />
-                この時、海外食品に魅力を感じ、将来は、食品商社で働きたいと考えた。
-              </p>
+              <MuiThemeProvider theme={styledTooltip}>
+                <Tooltip
+                  title="滞在中、'Gold Fish'というお菓子にハマった！また、現地のスタバで、「ソイラテ」を飲み、美味しかったことを覚えている。"
+                  placement="left-end"
+                  arrow
+                >
+                  <p>
+                    修学旅行がない高校だったが、海外研修はあった。
+                    <br />
+                    アメリカ・シアトルを選択し、初めて海外へ渡航！
+                    <br />
+                    この時、海外食品に魅力を感じ、将来は、食品商社で働きたいと考えた。
+                  </p>
+                </Tooltip>
+              </MuiThemeProvider>
             </div>
           </li>
           <li className="hiddenOne">
@@ -140,11 +169,19 @@ const About = () => {
               <h3 className="timeline_title">
                 海外インターンシップ(約1ヶ月間)
               </h3>
-              <p>
-                アメリカ・ロサンゼルスにある日系企業にて、インターンシップに参加。
-                <br />
-                現地では、語学学校にて勤務。
-              </p>
+              <MuiThemeProvider theme={styledTooltip}>
+                <Tooltip
+                  title="ハンバーガーの美味しさに感動！特に、The Habit Burger Grillのものがパテがジューシーでとても美味しかった！さらに、念願の'Gold Fishとの再会！日本にいくつか買って帰った。"
+                  placement="left-end"
+                  arrow
+                >
+                  <p>
+                    アメリカ・ロサンゼルスにある日系企業にて、インターンシップに参加。
+                    <br />
+                    現地では、語学学校にて勤務。
+                  </p>
+                </Tooltip>
+              </MuiThemeProvider>
             </div>
           </li>
           <li className="hiddenOne">
@@ -160,7 +197,7 @@ const About = () => {
               <h3 className="timeline_title">Excel VBAとの出会い...</h3>
               <p>
                 就職活動中に、社会人の方から、Excel
-                VBAの勉強をすることを勧められ、Excel VBAの授業を履修してみた！
+                VBAの勉強をすることを勧められ、Excel VBAの授業を履修。
                 <br />
                 自分が書いたコードの通りにExcelが動いたことに感激。
                 <br />
@@ -172,14 +209,30 @@ const About = () => {
             <p className="timeline-date">2020年3月</p>
             <div className="timeline-content">
               <h3 className="timeline_title">大学卒業</h3>
-              <p>大学を卒業。</p>
+              <MuiThemeProvider theme={styledTooltip}>
+                <Tooltip
+                  title="2019年6月時点で、東京のSES企業から内定を頂いていたが、事情があって12月に辞退していた。そのため、アルバイトを続けていた。"
+                  placement="left-end"
+                  arrow
+                >
+                  <p>大学を卒業。</p>
+                </Tooltip>
+              </MuiThemeProvider>
             </div>
           </li>
           <li>
             <p className="timeline-date">2020年4月</p>
             <div className="timeline-content">
               <h3 className="timeline_title">プログラミング学習スタート！</h3>
-              <p>本格的にプログラミング学習を開始した。</p>
+              <MuiThemeProvider theme={styledTooltip}>
+                <Tooltip
+                  title="最初は、なかなか勉強方法がわからず、試行錯誤。(今でもですが...笑)"
+                  placement="left-end"
+                  arrow
+                >
+                  <p>本格的にプログラミング学習を開始した。</p>
+                </Tooltip>
+              </MuiThemeProvider>
             </div>
           </li>
           <li>
@@ -189,7 +242,7 @@ const About = () => {
               <p>
                 エンジニアを目指して、アルバイトを開始。
                 <br />
-                CMSを使って、サイト保守を行うなどしている。
+                CMSを使って、サイト保守を行ったり、Reactを使って業務系サービスの開発に携わるなどしている。
               </p>
             </div>
           </li>

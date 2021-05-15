@@ -24,6 +24,10 @@ h3 {
   border-bottom: 2px solid #f58c9a;
 }
 
+.tooltip {
+  font-size: 16px;
+}
+
 /* ナビゲーション */
 .navBar {
   background-color: #2e3b70;
