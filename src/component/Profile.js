@@ -45,6 +45,7 @@ const About = () => {
             href="https://qiita.com/azunas"
             target="_blank"
             rel="noopener noreferrer"
+            className="qiitaIcon"
           >
             Qiitaはこちら！<i className="fas fa-external-link-alt"></i>
           </a>
