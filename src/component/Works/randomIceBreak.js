@@ -4,7 +4,7 @@ import icebreakshuffleVideo from "./WorksPhotos/icebreakshuffleVideo.mp4";
 export default class IBS extends React.Component {
   render() {
     return (
-      <div className="detailContents">
+      <div className="mainContent">
         <h2 className="detailTitle">アイスブレイクシャッフル</h2>
         <div className="contentsBox">
           <p>

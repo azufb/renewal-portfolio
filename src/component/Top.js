@@ -4,9 +4,9 @@ import topImg from "./../top.png";
 export default class Top extends React.Component {
   render() {
     return (
-      <div className="top">
-        <img src={topImg} alt="topimg" />
-        <h3>はじめまして</h3>
+      <div className="mainContent">
+        <img src={topImg} alt="topimg" className="greetingImg" />
+        <h3 className="greetingTitle">はじめまして</h3>
         <div className="contentsBox">
           <p>
             ご来訪下さり、ありがとうございます！

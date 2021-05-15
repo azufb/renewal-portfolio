@@ -3,7 +3,7 @@ import React from "react";
 export default class Skills extends React.Component {
   render() {
     return (
-      <div className="skills">
+      <div className="mainContent">
         <h2 className="pageTitle">Skills</h2>
         <h3>プログラミングスキル</h3>
         <div className="contentsBox">

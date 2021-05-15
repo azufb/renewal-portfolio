@@ -4,7 +4,7 @@ import negapuchiVideo from "./WorksPhotos/negapuchiVideo.mp4";
 export default class Negapuchi extends React.Component {
   render() {
     return (
-      <div className="detailContents">
+      <div className="mainContent">
         <h2 className="detailTitle">ネガプチッ！</h2>
         <div className="contentsBox">
           <p>

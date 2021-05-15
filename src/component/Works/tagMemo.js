@@ -4,7 +4,7 @@ import tagmemoVideo from "./WorksPhotos/tagmemo.mp4";
 export default class TagMemo extends React.Component {
   render() {
     return (
-      <div className="detailContents">
+      <div className="mainContent">
         <h2 className="detailTitle">タグメモ！</h2>
         <div className="contentsBox">
           <p>
