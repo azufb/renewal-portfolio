@@ -8,6 +8,7 @@
   font-weight: 500;
   letter-spacing: 0.15em;
   font-family: "Noto Sans JP", sans-serif;
+  user-select: none;
 }
 
 .contentsBox {
