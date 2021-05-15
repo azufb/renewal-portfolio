@@ -429,11 +429,11 @@ footer {
     margin-left: 15px;
   }
 
-  .top {
+  .mainContent {
     width: 100%;
   }
 
-  .top img {
+  .mainContent img {
     margin-top: 0px;
     width: 100%;
     height: auto;
@@ -441,10 +441,6 @@ footer {
 
   .pageTitle {
     margin-top: 0px;
-  }
-
-  .profile {
-    width: 100%;
   }
 
   .contentsBox {
@@ -497,10 +493,6 @@ footer {
     content: none;
   }
 
-  .skills {
-    width: 100%;
-  }
-
   .programing {
     display: block;
   }
@@ -527,10 +519,6 @@ footer {
     height: auto;
   }
 
-  .works {
-    width: 100%;
-  }
-
   .cards {
     display: block;
   }
@@ -551,10 +539,6 @@ footer {
   .card img {
     width: 100%;
     height: auto;
-  }
-
-  .mainContent {
-    width: 100%;
   }
 
   .number {
@@ -638,18 +622,14 @@ footer {
     margin-left: 15px;
   }
 
-  .top {
+  .mainContent {
     width: 100%;
   }
 
-  .top img {
+  .mainContent img {
     margin-top: 0px;
     width: 100%;
     height: auto;
-  }
-
-  .profile {
-    width: 100%;
   }
 
   .timeline {
@@ -697,14 +677,6 @@ footer {
     content: none;
   }
 
-  .skills {
-    width: 100%;
-  }
-
-  .works {
-    width: 100%;
-  }
-
   .worksCategory {
     margin-bottom: 0px;
   }
@@ -736,10 +708,6 @@ footer {
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
-
-  .mainContent {
-    width: 100%;
   }
 
   .homeusa {
