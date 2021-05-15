@@ -9,6 +9,8 @@
   letter-spacing: 0.15em;
   font-family: "Noto Sans JP", sans-serif;
   user-select: none;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .contentsBox {
@@ -112,6 +114,16 @@ a {
 
 .githubIcon {
   padding-left: 10px;
+}
+
+.githubIcon i {
+  margin-bottom: 15px;
+}
+
+.qiitaIcon {
+  background-color: #4aac00;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .timeline {
