@@ -14,6 +14,7 @@ import Works from "./Works";
 import Contact from "./Contact";
 import TaskList from "./Works/taskList";
 import ToDoKanri from "./Works/todokanri";
+import KyouNoYarukoto from "./Works/kyouNoYarukoto";
 import TagMemo from "./Works/tagMemo";
 import IBS from "./Works/randomIceBreak";
 import Homerun from "./Works/homerun";
@@ -60,6 +61,9 @@ export default class Navi extends React.Component {
             </Route>
             <Route path="/Contact">
               <Contact />
+            </Route>
+            <Route path="/Works/kyouNoYarukoto">
+              <KyouNoYarukoto />
             </Route>
             <Route path="/works/todokanri">
               <ToDoKanri />
