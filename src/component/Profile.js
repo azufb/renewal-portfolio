@@ -171,7 +171,7 @@ const About = () => {
               </h3>
               <MuiThemeProvider theme={styledTooltip}>
                 <Tooltip
-                  title="ハンバーガーの美味しさに感動！特に、The Habit Burger Grillのものがパテがジューシーでとても美味しかった！さらに、念願の'Gold Fishとの再会！日本にいくつか買って帰った。"
+                  title="ハンバーガーの美味しさに感動！特に、'The Habit Burger Grill'というお店のものがパテがジューシーでとても美味しかった！さらに、念願の'Gold Fish'との再会！日本にいくつか買って帰った。"
                   placement="left-end"
                   arrow
                 >
