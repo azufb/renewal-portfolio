@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
 export default class Works extends React.Component {
   render() {
     return (
-      <div className="works">
+      <div className="mainContent">
         <h2 className="pageTitle">Works</h2>
         <div className="contentsBox">
           <p>
@@ -31,11 +31,10 @@ export default class Works extends React.Component {
                       <img src={ToDoKanri} alt="todo管理" />
                       <p>詳しくはこちら→</p>
                     </div>
-                    <p>
-                      ToDo管理
-                      <br />
-                      <span className="finishedDate">2020年9月12日</span>
-                    </p>
+                    <div className="cardTitle">
+                      <p className="appTitle">ToDo管理</p>
+                      <p className="finishedDate">2020年9月12日</p>
+                    </div>
                   </div>
                 </NavLink>
               </div>
@@ -46,11 +45,10 @@ export default class Works extends React.Component {
                       <img src={taskList} alt="todo管理" />
                       <p>詳しくはこちら→</p>
                     </div>
-                    <p>
-                      タスクリスト
-                      <br />
-                      <span className="finishedDate">2020年7月5日</span>
-                    </p>
+                    <div className="cardTitle">
+                      <p className="appTitle">タスクリスト</p>
+                      <p className="finishedDate">2020年7月5日</p>
+                    </div>
                   </div>
                 </NavLink>
               </div>
@@ -70,11 +68,10 @@ export default class Works extends React.Component {
                       <p>詳しくはこちら→</p>
                     </div>
 
-                    <p>
-                      タグメモ！
-                      <br />
-                      <span className="finishedDate">2020年8月11日</span>
-                    </p>
+                    <div className="cardTitle">
+                      <p className="appTitle">タグメモ！</p>
+                      <p className="finishedDate">2020年8月11日</p>
+                    </div>
                   </div>
                 </NavLink>
               </div>
@@ -94,11 +91,10 @@ export default class Works extends React.Component {
                       <p>詳しくはこちら→</p>
                     </div>
 
-                    <p>
-                      ネガプチッ！
-                      <br />
-                      <span className="finishedDate">2021年3月26日</span>
-                    </p>
+                    <div className="cardTitle">
+                      <p className="appTitle">ネガプチッ！</p>
+                      <p className="finishedDate">2021年3月26日</p>
+                    </div>
                   </div>
                 </NavLink>
               </div>
@@ -113,11 +109,10 @@ export default class Works extends React.Component {
                       <p>詳しくはこちら→</p>
                     </div>
 
-                    <p>
-                      アイスブレイクシャッフル
-                      <br />
-                      <span className="finishedDate">2021年2月9日</span>
-                    </p>
+                    <div className="cardTitle">
+                      <p className="appTitle">アイスブレイクシャッフル</p>
+                      <p className="finishedDate">2021年2月9日</p>
+                    </div>
                   </div>
                 </NavLink>
               </div>
@@ -129,11 +124,10 @@ export default class Works extends React.Component {
                       <p>詳しくはこちら→</p>
                     </div>
 
-                    <p>
-                      ほめるん
-                      <br />
-                      <span className="finishedDate">2020年7月19日</span>
-                    </p>
+                    <div className="cardTitle">
+                      <p className="appTitle">ほめるん</p>
+                      <p className="finishedDate">2020年7月19日</p>
+                    </div>
                   </div>
                 </NavLink>
               </div>
@@ -153,11 +147,10 @@ export default class Works extends React.Component {
                       <p>詳しくはこちら→</p>
                     </div>
 
-                    <p>
-                      Job Hunting Progress Manage
-                      <br />
-                      <span className="finishedDate">2020年10月24日</span>
-                    </p>
+                    <div className="cardTitle">
+                      <p className="appTitle">Job Hunting Progress Manage</p>
+                      <p className="finishedDate">2020年10月24日</p>
+                    </div>
                   </div>
                 </NavLink>
               </div>

@@ -4,7 +4,7 @@ import todokanriVideo from "./WorksPhotos/todokanri.mp4";
 export default class ToDoKanri extends React.Component {
   render() {
     return (
-      <div className="detailContents">
+      <div className="mainContent">
         <h2 className="detailTitle">ToDo管理</h2>
         <div className="contentsBox">
           <p>このアプリは、タスク管理アプリです。</p>

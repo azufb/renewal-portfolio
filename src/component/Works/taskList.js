@@ -4,7 +4,7 @@ import tasklistVideo from "./WorksPhotos/tasklist.mp4";
 export default class TaskList extends React.Component {
   render() {
     return (
-      <div className="detailContents">
+      <div className="mainContent">
         <h2 className="detailTitle">タスクリスト</h2>
         <div className="contentsBox">
           <p>単純な、タスク管理アプリケーションです！</p>

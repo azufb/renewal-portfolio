@@ -4,7 +4,7 @@ import JHPMVideo from "./WorksPhotos/JHPMVideo.mp4";
 export default class JHPM extends React.Component {
   render() {
     return (
-      <div className="detailContents">
+      <div className="mainContent">
         <h2 className="detailTitle jhpmTitle">Job Hunting Progress Manage</h2>
         <div className="contentsBox">
           <p>

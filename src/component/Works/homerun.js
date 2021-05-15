@@ -5,7 +5,7 @@ import homeusaQR from "./../../homeusa_qr.png";
 export default class Homerun extends React.Component {
   render() {
     return (
-      <div className="detailContents">
+      <div className="mainContent">
         <h2 className="detailTitle">ほめるん</h2>
         <div className="contentsBox">
           <p>

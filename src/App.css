@@ -16,6 +16,12 @@
 
 .contentsBox p {
   padding-left: 10px;
+  padding-right: 10px;
+  line-height: 2;
+}
+
+h3 {
+  border-bottom: 2px solid #f58c9a;
 }
 
 /* ナビゲーション */
@@ -25,7 +31,7 @@
 
 .titles {
   display: table;
-  width: 990px;
+  width: 1050px;
   margin: 0 auto;
 }
 
@@ -69,40 +75,25 @@ a {
 }
 
 /* TOPページのNEWS部分 */
-.top {
-  width: 990px;
+.mainContent {
+  width: 1050px;
   margin: 0 auto;
 }
 
-.top h3 {
-  font-family: "Montserrat", sans-serif;
-}
-
-.top img {
+.greetingImg {
   margin-top: 45px;
   margin-bottom: 20px;
-  width: 990px;
+  width: 1050px;
   height: auto;
   filter: grayscale(0%);
 }
 
-.top h3 {
+.greetingTitle {
+  font-family: "Montserrat", sans-serif;
   margin-top: 15px;
 }
 
-.top p {
-  line-height: 2;
-}
-
 /* 経歴年表 */
-.profile {
-  width: 990px;
-  margin: 0 auto;
-}
-
-.profile p {
-  line-height: 2;
-}
 
 .pageTitle {
   margin-top: 50px;
@@ -116,10 +107,6 @@ a {
 
 .githubIcon {
   padding-left: 10px;
-}
-
-.hobby p {
-  line-height: 2;
 }
 
 .timeline {
@@ -184,7 +171,7 @@ a {
   height: 16px;
   background: #ef4056;
   position: absolute;
-  left: 124px;
+  left: 119px;
   top: 24px;
   border-radius: 100%;
 }
@@ -194,23 +181,6 @@ a {
 }
 
 /* スキルのアイコン画像 */
-.skills {
-  width: 990px;
-  margin: 0 auto;
-}
-
-h3 {
-  border-bottom: 2px solid #f58c9a;
-}
-
-.skills .contentsBox p {
-  line-height: 2;
-}
-
-.skill {
-  margin-bottom: 0px !important;
-}
-
 .category {
   color: #ef4056;
   margin-bottom: 15px;
@@ -250,11 +220,6 @@ h3 {
 }
 
 /* My Worksページ */
-.works {
-  width: 990px;
-  margin: 0 auto;
-}
-
 .worksCategory {
   margin-top: 0px;
 }
@@ -271,7 +236,7 @@ h3 {
 .card {
   border: 1px solid #c1c4c4;
   border-radius: 10px;
-  width: 323px;
+  width: 262px;
   height: auto;
   background-color: #f8f8f8;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
@@ -283,7 +248,7 @@ h3 {
 }
 
 .card img {
-  width: 323px;
+  width: 262px;
   height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -293,13 +258,16 @@ h3 {
   transform: translateY(-15px);
 }
 
-.card p {
+.cardContents .cardTitle .appTitle {
   text-align: center;
   color: #333333;
+  padding-left: 0px;
 }
 
-.finishedDate {
-  color: #878989;
+.cardContents .cardTitle .finishedDate {
+  text-align: center;
+  color: #878989 !important;
+  padding-left: 0px;
 }
 
 .worksImgs {
@@ -317,18 +285,13 @@ h3 {
 }
 
 /* 成果物詳細ページ */
-.detailContents {
-  width: 990px;
-  margin: 0 auto;
-}
-
 .detailTitle {
   margin-top: 50px;
   font-family: "Montserrat", sans-serif;
   color: #ef4056;
 }
 
-.detailContents .contentsBox p {
+.mainContent .contentsBox p {
   line-height: 2;
 }
 
@@ -409,23 +372,6 @@ h3 {
 .homeusa figcaption {
   text-align: center;
   padding-top: 10px;
-}
-
-/* お問い合わせリンク*/
-.contact {
-  width: 990px;
-  margin: 0 auto;
-}
-
-.formLink {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  background-color: #ccc;
-  padding: 10px;
-  /*box-shadow: 0 4px 4px rgba(0,0,0,0.3);*/
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-    rgba(255, 255, 255, 0.08) 0px 1px 0px;
 }
 
 /* フッター */
@@ -599,7 +545,7 @@ footer {
     height: auto;
   }
 
-  .detailContents {
+  .mainContent {
     width: 100%;
   }
 
@@ -784,7 +730,7 @@ footer {
     border-top-right-radius: 10px;
   }
 
-  .detailContents {
+  .mainContent {
     width: 100%;
   }
 
