@@ -84,7 +84,7 @@ const About = () => {
               <MuiThemeProvider theme={styledTooltip}>
                 <Tooltip
                   title="子供のころ、厚紙を使って、オリジナルゲームの見た目を作って遊んだりしていた。ただ、機能までは作っていなかった...。当時の将来の夢は、イルカだったらしい！？"
-                  placement="left-end"
+                  placement="left"
                   arrow
                 >
                   <p>兵庫県に生まれる。</p>
@@ -124,7 +124,7 @@ const About = () => {
               <MuiThemeProvider theme={styledTooltip}>
                 <Tooltip
                   title="滞在中、'Gold Fish'というお菓子にハマった！また、現地のスタバで、「ソイラテ」を飲み、美味しかったことを覚えている。"
-                  placement="left-end"
+                  placement="left"
                   arrow
                 >
                   <p>
@@ -172,7 +172,7 @@ const About = () => {
               <MuiThemeProvider theme={styledTooltip}>
                 <Tooltip
                   title="ハンバーガーの美味しさに感動！特に、'The Habit Burger Grill'というお店のものがパテがジューシーでとても美味しかった！さらに、念願の'Gold Fish'との再会！日本にいくつか買って帰った。"
-                  placement="left-end"
+                  placement="left"
                   arrow
                 >
                   <p>
