@@ -1,13 +1,13 @@
-import React from "react";
-import kyouNoYarukoto from "./Works/WorksPhotos/kyouNoYarukoto.png";
-import taskList from "./Works/WorksPhotos/taskList.png";
-import ToDoKanri from "./Works/WorksPhotos/ToDoKanri.png";
-import tagMemo from "./Works/WorksPhotos/tagMemo.png";
-import iceBreakShuffle from "./Works/WorksPhotos/iceBreakShuffle.png";
-import homerun from "./Works/WorksPhotos/homerun.png";
-import negapuchi from "./Works/WorksPhotos/negaPuchi.png";
-import jhpm from "./Works/WorksPhotos/JobHuntingProgressManage.png";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import kyouNoYarukoto from './Works/WorksPhotos/kyouNoYarukoto.png';
+import taskList from './Works/WorksPhotos/taskList.png';
+import ToDoKanri from './Works/WorksPhotos/ToDoKanri.png';
+import tagMemo from './Works/WorksPhotos/tagMemo.png';
+import iceBreakShuffle from './Works/WorksPhotos/iceBreakShuffle.png';
+import homerun from './Works/WorksPhotos/homerun.png';
+import negapuchi from './Works/WorksPhotos/negaPuchi.png';
+import jhpm from './Works/WorksPhotos/JobHuntingProgressManage.png';
+import { NavLink } from 'react-router-dom';
 
 const Works = () => {
   return (
