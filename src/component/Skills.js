@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Skills = () => {
   return (
@@ -25,6 +25,19 @@ const Skills = () => {
           <p className="comment">
             <i className="far fa-comment-dots"></i>
             バックエンドもフロントエンドも担える言語で、万能だと思い、勉強し始めました。
+          </p>
+        </div>
+        <div className="lists">
+          <p className="list">
+            <i className="fas fa-medal"></i>Excel VBA
+          </p>
+          <p className="comment">
+            <i className="far fa-comment-dots"></i>
+            プログラミングに興味を持ったきっかけ！
+            <br />
+            仕事の効率をアップさせる目的で、複雑な機能ではありませんでしたが、一度、活用する機会がありました。
+            <br />
+            (プログラミング言語として分類して良いかわからないですが...!)
           </p>
         </div>
       </div>
