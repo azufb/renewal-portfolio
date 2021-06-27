@@ -1,13 +1,13 @@
-import React from "react";
-import { MuiThemeProvider, Tooltip, createMuiTheme } from "@material-ui/core";
+import React from 'react';
+import { MuiThemeProvider, Tooltip, createMuiTheme } from '@material-ui/core';
 
 const About = () => {
   const styledTooltip = createMuiTheme({
     overrides: {
       MuiTooltip: {
         tooltip: {
-          fontSize: "16px",
-          padding: "15px",
+          fontSize: '16px',
+          padding: '15px',
           lineHeight: 2,
         },
       },
@@ -57,10 +57,22 @@ const About = () => {
 
       <h3>趣味</h3>
       <div className="contentsBox hobby">
+        <p>最近は、読書をよくしています。</p>
         <p>
-          最近は、読書をよくしています。
+          特に、面白かった本は以下です！(2021/06/27)
           <br />
-          自己啓発系統も読みますし、経営論のようなビジネスジャンルも読みます。
+          <strong>
+            南場智子 著『不格好経営 チームDeNAの挑戦』
+            <br />
+            小杉俊哉 著『起業家のように企業で働く 令和版』
+            <br />
+            三浦崇宏著『言語化力』
+            <br />
+            木下是雄 著『まんがでわかる理科系の作文技術』
+            <br />
+            干場弓子 著『楽しくなければ仕事じゃない
+            「今やっていること」がどんどん「好きで得意」になる働き方の教科書』
+          </strong>
         </p>
       </div>
 
