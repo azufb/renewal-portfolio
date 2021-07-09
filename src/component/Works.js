@@ -92,6 +92,21 @@ const Works = () => {
               <NavLink to="/Works/tagMemo">
                 <div className="cardContents">
                   <div className="worksImgs">
+                    <img src={tagMemo} alt="Events Recorder" />
+                    <p>詳しくはこちら→</p>
+                  </div>
+
+                  <div className="cardTitle">
+                    <p className="appTitle">Events Recorder</p>
+                    <p className="finishedDate">2021年7月3日</p>
+                  </div>
+                </div>
+              </NavLink>
+            </div>
+            <div className="card">
+              <NavLink to="/Works/tagMemo">
+                <div className="cardContents">
+                  <div className="worksImgs">
                     <img src={tagMemo} alt="タグメモ！" />
                     <p>詳しくはこちら→</p>
                   </div>
