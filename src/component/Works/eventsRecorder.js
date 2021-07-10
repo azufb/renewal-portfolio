@@ -7,6 +7,9 @@ const EventsRecorder = () => {
       <h2 className="detailTitle">Events Recorder</h2>
       <div className="contentsBox">
         <p>
+          <strong>※現在、ブラウザ版のみのご提供となっております。</strong>
+        </p>
+        <p>
           「これまで参加したイベントなんだっけ？」「このイベントで何やったんだっけ？」「イベントで色々学んだけど、ブログにするほどではないな...」と思ったことはないでしょうか？
         </p>
         <p>
