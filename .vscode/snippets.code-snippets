@@ -1,0 +1,137 @@
+{
+  // Place your portfolio02 workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "Print to contents": {
+    "scope": "javascript, html",
+    "prefix": "contents",
+    "body": [
+      "<div className='mainContent'>",
+      "\t<h2 className='pageTitle'>$1</h2>",
+      "\t<div className='contentsBox'>",
+      "\t\t<p>$2</p>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "通常の表示形式"
+  },
+
+  "Print to app card": {
+    "scope": "javascript, html",
+    "prefix": "app-card",
+    "body": [
+      "<div className='card'>",
+      "\t<NavLink to='/Works/$1'>",
+      "\t\t<div className='cardContents'>",
+      "\t\t\t<div className='worksImgs'>",
+      "\t\t\t\t<img src={$2} alt='$3' />",
+      "\t\t\t\t<p>詳しくはこちら→</p>",
+      "\t\t\t</div>",
+      "\t\t\t<div className='cardTitle'>",
+      "\t\t\t\t<p className='appTitle'>",
+      "\t\t\t\t\t$4",
+      "\t\t\t\t</p>",
+      "\t\t\t\t<p className='finishedDate'>$5</p>",
+      "\t\t\t</div>",
+      "\t\t</div>",
+      "\t</NavLink>",
+      "</div>"
+    ],
+    "description": "Worksページの各アプリケーションカード"
+  },
+
+  "Print to app detail": {
+    "scope": "javascript, html",
+    "prefix": "app-detail",
+    "body": [
+      "<div className='mainContent'>",
+      "\t<h2 className='detailTitle'>$1</h2>",
+      "\t<div className='contentsBox'>",
+      "\t\t<p>",
+      "\t\t\t$2",
+      "\t\t</p>",
+      "\t</div>",
+
+      "\t<h3>使い方</h3>",
+      "\t<div className='contentsBox'>",
+      "\t\t<div className='howtouse'>",
+      "\t\t\t<div className='number'>",
+      "\t\t\t\t<span>1</span>",
+      "\t\t\t</div>",
+      "\t\t\t<p>",
+      "\t\t\t\t$3",
+      "\t\t\t</p>",
+      "\t\t</div>",
+      "\t\t<div className='videoBox'>",
+      "\t\t\t<video",
+      "\t\t\t\tsrc={$4}",
+      "\t\t\t\tcontrols",
+      "\t\t\t\tclassName='video'",
+      "\t\t\t\tcontrolsList='nodownload'",
+      "\t\t\t></video>",
+      "\t\t</div>",
+      "\t\t<div className='appLink'>",
+      "\t\t\t<p>",
+      "\t\t\t\t<a",
+      "\t\t\t\t\thref='$5'",
+      "\t\t\t\t\ttarget='_blank'",
+      "\t\t\t\t\trel='noopener noreferrer'",
+      "\t\t\t\t>",
+      "\t\t\t\t\t使ってみる！<i className='fas fa-external-link-alt'></i>",
+      "\t\t\t\t</a>",
+      "\t\t\t</p>",
+      "\t\t</div>",
+      "\t</div>",
+
+      "\t<h3>作成したきっかけ</h3>",
+      "\t<div className='contentsBox'>",
+      "\t\t<p>",
+      "\t\t\t$6",
+      "\t\t</p>",
+      "\t</div>",
+
+      "\t<h3>使用技術</h3>",
+      "\t<div className='contentsBox'>",
+      "\t\t<p>$7</p>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "アプリケーションの詳細ページ"
+  },
+
+  "Print to how to number": {
+    "scope": "javascript, html",
+    "prefix": "how-to-num",
+    "body": [
+      "<div className='howtouse'>",
+      "\t<div className='number'>",
+      "\t\t<span>$1</span>",
+      "\t</div>",
+      "\t<p>",
+      "\t\t$2",
+      "\t</p>",
+      "</div>"
+    ]
+  },
+
+  "Print to new app": {
+    "scope": "javascript, html",
+    "prefix": "new-app",
+    "body": ["<span className='newApp'>NEW</span>"],
+    "description": "NEWタグ"
+  }
+}
