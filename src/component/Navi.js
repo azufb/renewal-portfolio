@@ -1,25 +1,26 @@
-import React from "react";
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link,
   NavLink,
-} from "react-router-dom";
-import ScrollToTop from "./ScrollToTop";
-import Top from "./Top";
-import Profile from "./Profile";
-import Skills from "./Skills";
-import Works from "./Works";
-import Contact from "./Contact";
-import TaskList from "./Works/taskList";
-import ToDoKanri from "./Works/todokanri";
-import KyouNoYarukoto from "./Works/kyouNoYarukoto";
-import TagMemo from "./Works/tagMemo";
-import IBS from "./Works/randomIceBreak";
-import Homerun from "./Works/homerun";
-import Negapuchi from "./Works/negapuchi";
-import JHPM from "./Works/jobHuntingProgressManage";
+} from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
+import Top from './Top';
+import Profile from './Profile';
+import Skills from './Skills';
+import Works from './Works';
+import Contact from './Contact';
+import TaskList from './Works/taskList';
+import ToDoKanri from './Works/todokanri';
+import KyouNoYarukoto from './Works/kyouNoYarukoto';
+import EventsRecorder from './Works/eventsRecorder';
+import TagMemo from './Works/tagMemo';
+import IBS from './Works/randomIceBreak';
+import Homerun from './Works/homerun';
+import Negapuchi from './Works/negapuchi';
+import JHPM from './Works/jobHuntingProgressManage';
 
 export default class Navi extends React.Component {
   render() {
@@ -70,6 +71,9 @@ export default class Navi extends React.Component {
             </Route>
             <Route path="/Works/taskList">
               <TaskList />
+            </Route>
+            <Route path="/Works/eventsRecorder">
+              <EventsRecorder />
             </Route>
             <Route path="/Works/tagMemo">
               <TagMemo />
