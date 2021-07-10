@@ -1,4 +1,5 @@
 import React from 'react';
+import eventsRecorderVideo from './WorksPhotos/eventsRecorderVideo.mp4';
 
 const EventsRecorder = () => {
   return (
@@ -12,7 +13,7 @@ const EventsRecorder = () => {
           そんなときは、このEvent
           Recorderで、参加したイベントについて記録してみましょう！
           <br />
-          参加したということだけでなく、学んだこと・感じたことなどをコメントとして残すことで、いつでもそのイベントについて思い出すことができます。
+          参加したということだけでなく、学んだこと・感じたことなどをコメントとして簡単に残すことで、いつでもそのイベントについて思い出すことができます。
           また、記録に残しておくことでより、学びが定着しやすくなるかもしれませんね！
         </p>
       </div>
@@ -24,7 +25,7 @@ const EventsRecorder = () => {
             <span>1</span>
           </div>
           <p>
-            Eventsページにて、イベント名(必須)・タグ(必須)・コメント(必須)・イベントURL・参加日(必須)を入力し、登録します。
+            Eventsページにて、イベント名(必須)・タグ2種(必須)・コメント(必須)・イベントURL・参加日(必須)を入力し、登録します。
           </p>
         </div>
         <div className="howtouse">
@@ -37,7 +38,17 @@ const EventsRecorder = () => {
             また、編集ボタンで、イベント名やコメント、イベントURL、参加日を編集することも可能です。
           </p>
         </div>
-        <div className="videoBox">{/*ここにデモ動画入る。*/}</div>
+        <div className="videoBox">
+          <video
+            src={eventsRecorderVideo}
+            controls
+            className="video"
+            controlsList="nodownload"
+          ></video>
+          <p>
+            ※デモ動画では、架空のイベントを入力しているため、URLもサンプルとなっております。
+          </p>
+        </div>
         <div className="appLink">
           <p>
             <a
