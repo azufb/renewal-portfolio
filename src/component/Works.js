@@ -2,6 +2,7 @@ import React from 'react';
 import kyouNoYarukoto from './Works/WorksPhotos/kyouNoYarukoto.png';
 import taskList from './Works/WorksPhotos/taskList.png';
 import ToDoKanri from './Works/WorksPhotos/ToDoKanri.png';
+import eventsRecorder from './Works/WorksPhotos/eventsRecorder.png';
 import tagMemo from './Works/WorksPhotos/tagMemo.png';
 import iceBreakShuffle from './Works/WorksPhotos/iceBreakShuffle.png';
 import homerun from './Works/WorksPhotos/homerun.png';
@@ -89,15 +90,17 @@ const Works = () => {
         <div className="cardsList">
           <div className="cards">
             <div className="card">
-              <NavLink to="/Works/tagMemo">
+              <NavLink to="/Works/eventsRecorder">
                 <div className="cardContents">
                   <div className="worksImgs">
-                    <img src={tagMemo} alt="Events Recorder" />
+                    <img src={eventsRecorder} alt="Events Recorder" />
                     <p>詳しくはこちら→</p>
                   </div>
 
                   <div className="cardTitle">
-                    <p className="appTitle">Events Recorder</p>
+                    <p className="appTitle">
+                      <span className="newApp">NEW</span>Events Recorder
+                    </p>
                     <p className="finishedDate">2021年7月3日</p>
                   </div>
                 </div>
