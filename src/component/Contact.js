@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { init, send } from 'emailjs-com';
 import Button from '@material-ui/core/Button';
 import SendIcon from '@material-ui/icons/Send';
+import ClearIcon from '@material-ui/icons/Clear';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -10,8 +11,7 @@ const Contact = () => {
   const [title, setTitle] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleClick = (e) => {
-    e.preventDefault();
+  const sendMail = () => {
     const confirmContact = window.confirm('お問い合わせを送信して良いですか？');
 
     if (confirmContact) {
@@ -34,17 +34,37 @@ const Contact = () => {
           message: message,
         };
 
-        send(emailjsServeiceID, templateID, template_param).then(() => {
-          window.alert('お問い合わせを送信致しました。');
+        const mailMark = new RegExp(`@`, 'gim');
+        if (mail.match(mailMark)) {
+          send(emailjsServeiceID, templateID, template_param).then(() => {
+            window.alert('お問い合わせを送信致しました。');
 
-          setName('');
-          setCompany('');
-          setMail('');
-          setMessage('');
-          setTitle('');
-        });
+            setName('');
+            setCompany('');
+            setMail('');
+            setMessage('');
+            setTitle('');
+          });
+        } else {
+          window.alert(
+            'メールアドレスが入力できていないようです！「@」マーク以降も入力できているか、ご確認ください！'
+          );
+        }
       }
     }
+  };
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    sendMail();
+  };
+
+  const handleCanceled = () => {
+    setName('');
+    setCompany('');
+    setMail('');
+    setMessage('');
+    setTitle('');
   };
 
   const disableSend =
@@ -77,6 +97,7 @@ const Contact = () => {
             type="text"
             id="companyNameForm"
             className="formInput"
+            required
             value={company}
             onChange={(e) => setCompany(e.target.value)}
           />
@@ -111,16 +132,28 @@ const Contact = () => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
-          <div>
-            <Button
-              variant="contained"
-              color="default"
-              endIcon={<SendIcon />}
-              onClick={handleClick}
-              disabled={disableSend}
-            >
-              <strong>お問い合わせを送信する</strong>
-            </Button>
+          <div className="btns">
+            <div>
+              <Button
+                variant="contained"
+                color="default"
+                endIcon={<SendIcon />}
+                onClick={handleClick}
+                disabled={disableSend}
+              >
+                <strong>お問い合わせを送信する</strong>
+              </Button>
+            </div>
+            <div>
+              <Button
+                variant="contained"
+                color="default"
+                endIcon={<ClearIcon />}
+                onClick={handleCanceled}
+              >
+                <strong>キャンセル</strong>
+              </Button>
+            </div>
           </div>
         </form>
       </div>
