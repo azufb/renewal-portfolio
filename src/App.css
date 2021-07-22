@@ -417,9 +417,19 @@ a {
   padding-top: 10px;
 }
 
+/* お問い合わせ */
+.formInput {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form {
+  padding: 10px;
+}
+
 /* フッター */
 footer {
-  /*background-color: #eee;*/
   text-align: center;
   margin-top: auto;
   padding-top: 100px;
@@ -624,6 +634,12 @@ footer {
   .jhpmTitle {
     font-size: 22px;
   }
+
+  .formInput {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -755,5 +771,11 @@ footer {
     margin: 0 auto;
     display: block;
     margin: 0 auto;
+  }
+
+  .formInput {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-bottom: 15px;
   }
 }
