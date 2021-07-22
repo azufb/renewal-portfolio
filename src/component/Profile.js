@@ -1,8 +1,8 @@
 import React from 'react';
-import { MuiThemeProvider, Tooltip, createMuiTheme } from '@material-ui/core';
+import { MuiThemeProvider, Tooltip, createTheme } from '@material-ui/core';
 
 const About = () => {
-  const styledTooltip = createMuiTheme({
+  const styledTooltip = createTheme({
     overrides: {
       MuiTooltip: {
         tooltip: {
