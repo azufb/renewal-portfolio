@@ -428,6 +428,14 @@ form {
   padding: 10px;
 }
 
+.btns {
+  display: flex;
+}
+
+.btns div:nth-child(2) {
+  margin-left: 10px;
+}
+
 /* フッター */
 footer {
   text-align: center;
@@ -639,6 +647,15 @@ footer {
     box-sizing: border-box;
     max-width: 100%;
     margin-bottom: 15px;
+  }
+
+  .btns {
+    display: block;
+  }
+
+  .btns div:nth-child(2) {
+    margin-left: 0px;
+    margin-top: 10px;
   }
 }
 
