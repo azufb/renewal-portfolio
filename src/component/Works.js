@@ -45,9 +45,7 @@ const Works = () => {
                     <p>詳しくはこちら→</p>
                   </div>
                   <div className="cardTitle">
-                    <p className="appTitle">
-                      <span className="newApp">NEW</span>今日のやること！
-                    </p>
+                    <p className="appTitle">今日のやること！</p>
                     <p className="finishedDate">2021年5月7日</p>
                   </div>
                 </div>
@@ -93,13 +91,13 @@ const Works = () => {
               <NavLink to="/Works/eventsRecorder">
                 <div className="cardContents">
                   <div className="worksImgs">
-                    <img src={eventsRecorder} alt="Events Recorder" />
+                    <img src={eventsRecorder} alt="RecMe！" />
                     <p>詳しくはこちら→</p>
                   </div>
 
                   <div className="cardTitle">
                     <p className="appTitle">
-                      <span className="newApp">NEW</span>Events Recorder
+                      <span className="newApp">NEW</span>RecMe！
                     </p>
                     <p className="finishedDate">2021年7月3日</p>
                   </div>
