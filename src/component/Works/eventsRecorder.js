@@ -1,5 +1,5 @@
 import React from 'react';
-import eventsRecorderVideo from './WorksPhotos/eventsRecorderVideo.mp4';
+import recMeVideo from './WorksPhotos/recMe.mp4';
 
 const EventsRecorder = () => {
   return (
@@ -46,7 +46,7 @@ const EventsRecorder = () => {
         </div>
         <div className="videoBox">
           <video
-            src={eventsRecorderVideo}
+            src={recMeVideo}
             controls
             className="video"
             controlsList="nodownload"

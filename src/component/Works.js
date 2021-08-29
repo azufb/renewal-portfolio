@@ -2,7 +2,7 @@ import React from 'react';
 import kyouNoYarukoto from './Works/WorksPhotos/kyouNoYarukoto.png';
 import taskList from './Works/WorksPhotos/taskList.png';
 import ToDoKanri from './Works/WorksPhotos/ToDoKanri.png';
-import eventsRecorder from './Works/WorksPhotos/eventsRecorder.png';
+import recMe from './Works/WorksPhotos/recMe.png';
 import tagMemo from './Works/WorksPhotos/tagMemo.png';
 import iceBreakShuffle from './Works/WorksPhotos/iceBreakShuffle.png';
 import homerun from './Works/WorksPhotos/homerun.png';
@@ -91,7 +91,7 @@ const Works = () => {
               <NavLink to="/Works/eventsRecorder">
                 <div className="cardContents">
                   <div className="worksImgs">
-                    <img src={eventsRecorder} alt="RecMe！" />
+                    <img src={recMe} alt="RecMe！" />
                     <p>詳しくはこちら→</p>
                   </div>
 
